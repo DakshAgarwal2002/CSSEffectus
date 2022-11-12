@@ -1,0 +1,5217 @@
+ <style id="styling1"></style>
+    <style id="styling2"></style>
+    <style id="styling3"></style>
+    <style id="styling4"></style>
+    <style id="styling5"></style>
+    <style id="styling6"></style>
+    <style id="styling7"></style>
+    <style id="styling8"></style>
+    <style id="styling9"></style>
+    <style id="styling10"></style>
+    <style id="styling11"></style>
+    <style id="styling12"></style>
+    <style id="styling13"></style>
+    <style id="styling14"></style>
+    <style id="styling15"></style>
+    <style id="styling16"></style>
+    <style id="styling17"></style>
+    <style id="styling18"></style>
+    <style id="styling19"></style>
+    <style id="styling20"></style>
+    <style id="styling21"></style>
+    <style id="styling22"></style>
+    <style id="styling23"></style>
+    <style id="styling24"></style>
+    <style id="styling25"></style>
+    <style id="styling26"></style>
+    <style id="styling27"></style>
+    <style id="styling28"></style>
+    <style id="styling29"></style>
+    <style id="styling30"></style>
+    <style id="styling31"></style>
+    <style id="styling32"></style>
+    <style id="styling33"></style>
+    <style id="styling34"></style>
+    <style id="styling35"></style>
+    <style id="styling36"></style>
+    <style id="styling37"></style>
+    <style id="styling38"></style>
+    <style id="styling39"></style>
+    <style id="styling40"></style>
+    <style id="styling41"></style>
+    <style id="styling42"></style>
+    <style id="styling43"></style>
+    <style id="styling44"></style>
+    <style id="styling45"></style>
+    <style id="styling46"></style>
+    <style id="styling47"></style>
+    <style id="styling48"></style>
+    <style id="styling49"></style>
+    <style id="styling50"></style>
+<h1 class="Main-Body-h1"> Shining Text Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-1">
+        <textarea id="textareaHTML1" placeholder="HTML goes here..." onkeyup="compileHTML1(this)" style="width: 50vw; height: 200px;">
+        <div class="flex-container">
+            <div class="flex-center">
+                <p>Moning Light Animation Effect</p>
+            </div>
+        </div>
+        </textarea>
+        <textarea id="textareaCSS1" placeholder="CSS goes here..." onkeyup="compileCSS1(this)" style="width: 50vw; height: 200px;">
+            .flex-container{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                background: #000
+            }
+            .flex-center{
+                text-transform: uppercase;
+                font-size: 2em;
+                letter-spacing: 4px;
+                overflow: hidden;
+                background: linear-gradient(90deg,#000,#fff,#000);
+                background-repeat: no-repeat;
+                animation: animate9 3s linear infinite;
+                background-size: 80%;
+                position: relative;
+                font-family: sans-serif;
+                color: #fff;
+            
+            }
+            @keyframes animate9{
+                0%{
+                    background-position: -500%;
+                }
+                100%{
+                    background-position: 500%;
+                }
+            }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+<h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output1"></div>
+    <br/>
+   <h1 class="Main-Body-h1">Creative Menu</h1> 
+   <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-2">
+        <textarea id="textareaHTML2" placeholder=" HTML goes here..." onkeyup="compileHTML2(this)"
+            style="width: 50vw; height: 200px;">
+        <div class="CreativeMenu-container">
+            <ul>
+                <li><a href="#">Link1</a></li>
+                <li><a href="#">Link2</a></li>
+                <li><a href="#">Link3</a></li>
+                <li><a href="#">Link4</a></li>
+                <li><a href="#">Link5</a></li>
+            </ul>
+        </div>    
+            </textarea>
+        <textarea id="textareaCSS2" placeholder="CSS goes here..." onkeyup="compileCSS2(this)"
+            style="width: 50vw; height: 200px;">
+            .CreativeMenu-container{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                background: #112c38
+            }
+            .CreativeMenu-container ul{
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+            .CreativeMenu-container ul li{
+                list-style: none;
+                margin: 0 20px;
+                transition: 0.5s;
+            }
+            .CreativeMenu-container ul li a{
+                display: block;
+                position: relative;
+                text-decoration: none;
+                padding: 5px;
+                font-size: 18px;
+                font-family: sans-serif;
+                color: #fff;
+                text-transform: uppercase;
+                transition: .5s;
+            }
+            .CreativeMenu-container ul:hover li a{
+                transform:scale(1.5);
+                filter:blur(3px);
+            }
+            .CreativeMenu-container ul li a:hover
+            {
+                transform: scale(2);
+                opacity: 1;
+                filter: blur(0);
+            }
+            .CreativeMenu-container ul li a:before
+            {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: #ff497c;
+                /* transition: transform 0.5s; */
+                /* transform-origin: right; */
+                transform:scaleX(0);
+                z-index: -1;
+            }
+            .CreativeMenu-container ul li a:hover:before
+            {
+                transition: transform 0.5s;
+                transform-origin: center;
+                transform:scaleX(1);
+            }
+            .CreativeMenu-container .output2
+            {
+                height: 500px;
+                width: 100vw;
+            }
+            </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output2"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Wave Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-3">
+        <textarea id="textareaHTML3" placeholder=" HTML goes here..." onkeyup="compileHTML3(this)"
+            style="width: 50vw; height: 200px;">
+            <section class="wave-section">
+                <div class="wave wave1"></div>
+                <div class="wave wave2"></div>
+            </section>    
+                </textarea>
+        <textarea id="textareaCSS3" placeholder="CSS goes here..." onkeyup="compileCSS3(this)"
+            style="width: 50vw; height: 200px;">
+                .wave-section
+                {
+                    position: relative;
+                    width: 100%;
+                    height: 200px;
+                    background: #3586ff;
+                    overflow: hidden;
+                }
+                .wave-section .wave
+                {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100px;
+                    background-image: url(public/images/wave.png);
+                    background-size: 1000px 100px;
+                }
+                .wave-section .wave.wave1
+                {
+                    animation: animate_wave 30s linear infinite;
+                    z-index: 1000;
+                    opacity: 1;
+                    animation-delay: 0s;
+                    bottom: 0;
+                }
+                .wave-section .wave.wave2
+                {
+                    animation: animate_wave2 15s linear infinite;
+                    animation-direction: reverse;
+                    z-index: 999;
+                    opacity: 0.5;
+                    animation-delay: -5s;
+                    bottom: 10px;
+                }
+                @keyframes animate_wave
+                {
+                    0%
+                    {
+                        background-position-x: 0;
+                    }
+                    100%
+                    {
+                        background-position-x: 1000px;
+                    }
+                }
+                @keyframes animate_wave2
+                {
+                    0%
+                    {
+                        background-position-x: 0;
+                    }
+                    100%
+                    {
+                        background-position-x: 1000px;
+                    }
+                }
+                </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output3"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Ring Loader</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-4">
+        <textarea id="textareaHTML4" placeholder=" HTML goes here..." onkeyup="compileHTML4(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="GlowingRing-Container">
+                <div class="GlowingRing">
+                    <div class="loader">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>  
+                <div class="GlowingRing">
+                    <div class="loader">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>  
+                <div class="GlowingRing">
+                    <div class="loader">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>  
+            </div>
+            
+                </textarea>
+        <textarea id="textareaCSS4" placeholder="CSS goes here..." onkeyup="compileCSS4(this)"
+            style="width: 50vw; height: 200px;">
+.GlowingRing-Container
+{
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    justify-content:space-evenly;
+    background: #240229;
+}
+.GlowingRing{
+    margin:0;
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #240229;
+}
+.loader
+{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+    animation:animate .5s linear infinite ;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.loader span
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0);
+}
+.loader span:nth-child(1)
+{
+    filter: blur(5px);
+}
+.loader span:nth-child(2)
+{
+    filter: blur(10px);
+}
+.loader span:nth-child(3)
+{
+    filter: blur(25px);
+}
+.loader span:nth-child(4)
+{
+    filter: blur(50px);
+}
+.loader:after
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #240229;
+    border-radius: 50%;
+
+}
+                </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output4"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Ring Button</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-5">
+        <textarea id="textareaHTML5" placeholder=" HTML goes here..." onkeyup="compileHTML5(this)"
+            style="width: 50vw; height: 200px;">
+
+            <div class="GlowingButton">
+                
+                <div id="loader1" class="loader1">
+                    <span id="loader-span1"></span>
+                    <span id="loader-span2"></span>
+                    <span id="loader-span3"></span>
+                    <span id="loader-span4"></span>
+                </div>
+                <button class="button" onclick="show_sigin()">Click on me</button>
+                
+            </div> 
+            <script>
+                    function show_sigin() {
+                        document.getElementById("loader1").style.background = "linear-gradient(#14ffe9,#ffeb3b,#ff00e0)";
+                        document.getElementById("loader1").style.animation = "animate .5s linear infinite";
+                        document.getElementById("loader-span1").style.background = "linear-gradient(#14ffe9,#ffeb3b,#ff00e0)";
+                        document.getElementById("loader-span2").style.background = "linear-gradient(#14ffe9,#ffeb3b,#ff00e0)";
+                        document.getElementById("loader-span3").style.background = "linear-gradient(#14ffe9,#ffeb3b,#ff00e0)";
+                        document.getElementById("loader-span4").style.background = "linear-gradient(#14ffe9,#ffeb3b,#ff00e0)";
+                    }
+                </script> 
+            </textarea>
+        <textarea id="textareaCSS5" placeholder="CSS goes here..." onkeyup="compileCSS5(this)"
+            style="width: 50vw; height: 200px;">
+.GlowingButton{
+display: flex;
+height: 50vh;
+margin:0;
+padding: 0;
+display: flex;
+                justify-content:center;
+                align-items: center;
+                background: #240229;
+                z-index: 1;
+            }
+.GlowingButton .button
+{
+    position:absolute;
+    z-index: 2;
+    background:#240229;
+    font-weight: bolder;
+    border: none;
+    font-size: large;
+    color: white;
+            }
+.loader1
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0); */
+    /* animation:animate .5s linear infinite ; */
+    z-index: 1;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotate(0deg);
+    }
+    100%
+    {
+        transform: rotate(360deg);
+    }
+}
+.loader1 span
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* background: linear-gradient(#14ffe9,#ffeb3b,#ff00e0); */
+    z-index: 1;
+}
+#loader-span1
+{
+    filter: blur(5px);
+    z-index: 1;
+}
+#loader-span2
+{
+    filter: blur(10px);
+    z-index: 1;
+}
+#loader-span3
+{
+    filter: blur(25px);
+    z-index: 1;
+}
+#loader-span4
+{
+    filter: blur(50px);
+    z-index: 1;
+}
+.loader1:after
+{
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    background: #240229;
+    border-radius: 50%;
+    z-index: 1;
+}
+</textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output5"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Ghost Text</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-6">
+        <textarea id="textareaHTML6" placeholder="HTML goes here..." onkeyup="compileHTML6(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="GhostText-container">
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>Item3</li>
+                    <li>Item4</li>
+                    <li>Item5</li>
+                    <li>Item6</li>
+                </ul>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS6" placeholder="CSS goes here..." onkeyup="compileCSS6(this)"
+            style="width: 50vw; height: 200px;">
+            .GhostText-container{
+                margin:0;
+                padding:0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                background: #262626;
+            }
+            .GhostText-container ul
+            {
+                margin: 0px;
+                padding: 0px;
+                display: flex;
+                gap: 20px;
+                flex-direction: row-reverse;
+            }
+            .GhostText-container li{
+                list-style: none;
+                color:#fff;
+                font-size: 4em;
+                font-weight: bold;
+                filter: blur(1px);
+                transition: 4s;
+            }
+            .GhostText-container ul li:hover
+            /* .GhostText-container ul li:hover ~ li */
+            {
+            transform: rotate(180deg) translateY(-200px);
+            transition: 2s;
+            filter: blur(20px);
+            opacity: 0;
+            }
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output6"></div>
+    <br/>
+    <h1 class="Main-Body-h1">I-Phone Hover Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-7">
+        <textarea id="textareaHTML7" placeholder="HTML goes here..." onkeyup="compileHTML7(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="Iphone-container">
+                <div class="box">
+                    <img src="public/images/Iphone-image-removebg-preview.png">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen1">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen2">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen3">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen4">
+                </div>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS7" placeholder="CSS goes here..." onkeyup="compileCSS7(this)"
+            style="width: 50vw; height: 200px;">
+            .Iphone-container{
+                margin:0;
+                padding: 0;
+                height: 90vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+            .Iphone-container .box{
+                position: relative;
+                width: 620px;
+                height: 403px;
+            }
+            .Iphone-container .box .Screen
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: 0.5s;
+            }
+            .Iphone-container .box:hover .Screen.Screen1
+            {
+                transform: translateX(70px) translateY(-50px);
+                opacity: .3;
+            }
+            .Iphone-container .box:hover .Screen.Screen2
+            {
+                transform: translateX(100px) translateY(-80px);
+                opacity: .5;
+            }
+            .Iphone-container .box:hover .Screen.Screen3
+            {
+                transform: translateX(130px) translateY(-110px);
+                opacity: .7;
+            }
+            .Iphone-container .box:hover .Screen.Screen4
+            {
+                transform: translateX(160px) translateY(-140px);
+                opacity: 1;
+            }
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output7"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Setting Checklist</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-8">
+        <textarea id="textareaHTML8" placeholder="HTML goes here..." onkeyup="compileHTML8(this)"
+            style="width: 50vw; height: 200px;"
+            <script src="https://kit.fontawesome.com/978ee8aedf.js" crossorigin="anonymous"></script>
+            <div class="GlowingCheckboxMenu">
+                <ul>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="">
+                            <i class="fa fa-wifi" aria-hidden="true"></i>
+                            <span class="check"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="">
+                            <i class="fa-brands fa-bluetooth"></i>
+                            <span class="check"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span class="check"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label>
+                            <input type="checkbox" name="">
+                            <i class="fa-solid fa-volume-high"></i>
+                            <span class="check"></span>
+                        </label>
+                    </li>
+                </ul>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS8" placeholder="CSS goes here..." onkeyup="compileCSS8(this)"
+            style="width: 50vw; height: 200px;">
+            .GlowingCheckboxMenu
+{
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #060606;
+    height: 50vh;
+}
+.GlowingCheckboxMenu ul{
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.GlowingCheckboxMenu ul li
+{
+    position: relative;
+    list-style: none;
+    width: 100px;
+    text-align: center;
+}
+.GlowingCheckboxMenu ul li label{
+    position: relative;
+}
+.GlowingCheckboxMenu ul li label li,
+.GlowingCheckboxMenu ul li label input[type="checkbox"]
+{
+    display: block;
+    text-align: center;
+}
+.GlowingCheckboxMenu ul li label i{
+    font-size: 30px;
+    color: #222;
+    transition: 0.5s;
+}
+.GlowingCheckboxMenu ul li label input[type="checkbox"]
+{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.GlowingCheckboxMenu ul li label .check
+{
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(#000,#333);
+    border-radius: 50%;
+    margin: 10px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.GlowingCheckboxMenu ul li label .check:before
+{
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #1b1b1b;
+    transition: 0.5s;
+    z-index: 3;
+}
+.GlowingCheckboxMenu ul li label .check:after
+{
+    content: '';
+    position: absolute;
+    top: 6px;
+    bottom: 6px;
+    left: 6px;
+    right: 6px;
+    background: #222;
+    z-index: 2;
+    border-radius: 50%;
+    border: 2px solid #161616;
+}
+.GlowingCheckboxMenu ul li label input[type="checkbox"]:checked ~ .check:before
+{
+    background: #0066ff;
+    box-shadow: 0 0 5px 1px #0066ff,0 0 8px 2px #0066ff;
+    
+}
+.GlowingCheckboxMenu ul li label input[type="checkbox"]:checked ~ i
+{
+    color: #0066ff;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output8"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Wavy Bridge Loader</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-9">
+        <textarea id="textareaHTML9" placeholder="HTML goes here..." onkeyup="compileHTML9(this)" style="width: 50vw; height: 200px;">
+            <div class="LoadingBodyContainer">
+                <div class="BarLoader">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS9" placeholder="CSS goes here..." onkeyup="compileCSS9(this)"
+            style="width: 50vw; height: 200px;">
+            .LoadingBodyContainer{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                background: #0092ff;
+            }
+            .BarLoader
+            {
+                position: relative;
+                display: flex;
+            }
+            .BarLoader span
+            {
+                width: 50px;
+                height: 250px;
+                margin: 0 20px;
+                background: #0092ff;
+                animation: animateBarloader 1.6s linear infinite;
+            }
+            .BarLoader span:nth-child(1)
+            {
+                animation-delay: 0.1s;
+            }
+            .BarLoader span:nth-child(2)
+            {
+                animation-delay: 0.2s;
+            }
+            .BarLoader span:nth-child(3)
+            {
+                animation-delay: 0.4s;
+            }
+            .BarLoader span:nth-child(4)
+            {
+                animation-delay: 0.6s;
+            }
+            .BarLoader span:nth-child(5)
+            {
+                animation-delay: 0.8s;
+            }
+            .BarLoader span:nth-child(6)
+            {
+                animation-delay: 1s;
+            }
+            .BarLoader span:nth-child(7)
+            {
+                animation-delay: 1.2s;
+            }
+            /* .BarLoader span:nth-child(8)
+            {
+                animation-delay: 1.4s;
+            } */
+            @keyframes animateBarloader
+            {
+                0%
+                {
+                    box-shadow: 0 0 0 black;
+                    opacity: 0;
+                    transform: translateX(-50px) scale(1);
+                }
+                50%
+                {
+                    box-shadow: 0 20px 50px black;
+                    opacity: 1;
+                    transform: translateX(0px) scale(1.2);
+                }
+                100%
+                {
+                    box-shadow: 0 0 0 black;
+                    opacity: 0;
+                    transform: translateX(50px) scale(1);
+                }
+            }
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output9"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Shining Logo</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-10">
+        <textarea id="textareaHTML10" placeholder="HTML goes here..." onkeyup="compileHTML10(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="AppleLogoBox">
+                <div class="AppleLogo">
+                    <i class="fa-brands fa-apple applelogo"></i>
+                </div>
+            </div>
+            <script src="https://kit.fontawesome.com/978ee8aedf.js" crossorigin="anonymous"></script>
+        </textarea>
+        <textarea id="textareaCSS10" placeholder="CSS goes here..." onkeyup="compileCSS10(this)"
+            style="width: 50vw; height: 200px;">
+            .AppleLogoBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+}
+.applelogo
+{
+    position: relative;
+    color: #0f0;
+    font-size: 5em;
+    text-shadow: 0 0 50px #0f0, 0 0 100px #0f0, 0 0 150px #0f0, 0 0 200px #0f0, 0 0 250px #0f0;
+    animation: animateapplelogo 5s linear infinite;
+}
+@keyframes animateapplelogo {
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output10"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Hover Button</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-11">
+        <textarea id="textareaHTML11" placeholder="HTML goes here..." onkeyup="compileHTML11(this)" style="width: 50vw; height: 200px;">
+            <div class="GlowingGradientButtonBox">
+                <a href="#" >button</a>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS11" placeholder="CSS goes here..." onkeyup="compileCSS11(this)" style="width: 50vw; height: 200px;">
+            .GlowingGradientButtonBox
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.GlowingGradientButtonBox a{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.GlowingGradientButtonBox a:hover
+{
+    animation: animateGlowingGradientButton 8s linear infinite;
+    z-index: 1;
+}
+@keyframes animateGlowingGradientButton
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+.GlowingGradientButtonBox a:before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    transition: 0.5s;
+}
+.GlowingGradientButtonBox a:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animateGlowingGradientButton 8s linear infinite;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output11"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Smoking Text Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-12">
+        <textarea id="textareaHTML12" placeholder="HTML goes here..." onkeyup="compileHTML12(this)" style="width: 50vw; height: 200px;">
+            <div class="Smoke-Text-Box">
+                <section>
+                    <video src="public/videos/smoke.mp4" autoplay muted></video>
+                    <h1>
+                        <span>D</span>
+                        <span>A</span>
+                        <span>K</span>
+                        <span>S</span>
+                        <span>H</span>
+                    </h1>
+                </section>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS12" placeholder="CSS goes here..." onkeyup="compileCSS12(this)" style="width: 50vw; height: 200px;">
+            .Smoke-Text-Box
+{
+    padding: 0;
+    margin: 0;
+    
+}
+.Smoke-Text-Box section{
+    background: black;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.Smoke-Text-Box section video
+{
+    object-fit: cover;
+    margin-top: -20vh;
+}
+.Smoke-Text-Box h1{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 5em;
+}
+.Smoke-Text-Box h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animateSmokeText 1s linear forwards;
+}
+@keyframes animateSmokeText
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+.Smoke-Text-Box h1 span:nth-child(1)
+{
+    animation-delay: 1.7s;
+}
+.Smoke-Text-Box h1 span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+.Smoke-Text-Box h1 span:nth-child(3)
+{
+    animation-delay: 2.3s;
+}
+.Smoke-Text-Box h1 span:nth-child(4)
+{
+    animation-delay: 2.6s;
+}
+.Smoke-Text-Box h1 span:nth-child(5)
+{
+    animation-delay: 2.9s;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output12"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Particles Text Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-13">
+        <textarea id="textareaHTML13" placeholder="HTML goes here..." onkeyup="compileHTML13(this)" style="width: 50vw; height: 200px;">
+            <div class="Distortion-Text-Box">
+                <section>
+                    <video src="public/videos/particles.mp4" muted autoplay></video>
+                <h2><span>P</span>articles Di<span>st</span>ortion Effects</h2>
+                </section>    
+            </div>
+        </textarea>
+        <textarea id="textareaCSS13" placeholder="CSS goes here..." onkeyup="compileCSS13(this)" style="width: 50vw; height: 200px;">
+.Distortion-Text-Box 
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: black;
+}
+.Distortion-Text-Box section{
+    background: black;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Distortion-Text-Box h2{
+    position: relative;
+    font-size: 5em;
+    margin: 0;
+    font-weight: 900;
+    color:white;
+    z-index: 1;
+    overflow: hidden;
+}
+.Distortion-Text-Box h2:before
+{
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
+    animation: animateTextDistortion 5.5s linear forwards;
+    animation-delay: 2.3s;
+}
+@keyframes animateTextDistortion{
+    0%
+    {
+        left: 110%;
+    }
+    100%
+    {
+        left:-20%;
+    }
+    
+}
+.Distortion-Text-Box h2 span
+{
+    color: rgb(255, 62, 62);
+}
+.Distortion-Text-Box video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output13"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Login Form</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-14">
+        <textarea id="textareaHTML14" placeholder="HTML goes here..." onkeyup="compileHTML14(this)" style="width: 50vw; height: 200px;">
+           <div class="Glassform-body">
+        <section>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="box">
+                <div class="square" style="--i:0;"></div>
+                <div class="square" style="--i:1;"></div>
+                <div class="square" style="--i:2;"></div>
+                <div class="square" style="--i:3;"></div>
+                <div class="square" style="--i:4;"></div>
+                <div class="container">
+                    <div class="form">
+                        <h2>Login Form</h2>
+                        <form action="#">
+                            <div class="inputbox">
+                                <input type="text" placeholder="Username" name="" id="">
+                            </div>
+                            <div class="inputbox">
+                                <input type="password" placeholder="Password" name="" id="">
+                            </div>
+                            <div class="inputbox">
+                                <input type="submit" value="Login" name="Login" id="">
+                            </div>
+                            <p class="forget">Forget Password ?<a href="#">Click Here</a></p>
+                            <p class="forget">Don't have an account ? ?<a href="#">Sign up</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS14" placeholder="CSS goes here..." onkeyup="compileCSS14(this)" style="width: 50vw; height: 200px;">
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Glassform-body{
+    overflow: hidden;
+}
+
+.Glassform-body section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+.Glassform-body section .color {
+    position: absolute;
+    filter: blur(150px);
+    overflow: hidden;
+}
+
+.Glassform-body section .color:nth-child(1) {
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background-color: #ff359b;
+}
+
+.Glassform-body section .color:nth-child(2) {
+    bottom: 50px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #fffd87;
+}
+
+.Glassform-body section .color:nth-child(3) {
+    bottom: 50px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #00d2ff;
+}
+
+.Glassform-body .box {
+    position: relative;
+}
+
+.Glassform-body .box .square {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.1) */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    animation: animateGlassForm 10s linear infinite;
+    animation-delay: calc(-1s*var(--i));
+}
+
+@keyframes animateGlassForm {
+
+    0%,
+    100% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+}
+
+.Glassform-body .box .square:nth-child(1) {
+    top: -50px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+}
+
+.Glassform-body .box .square:nth-child(2) {
+    top: 150px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+
+}
+
+.Glassform-body .box .square:nth-child(3) {
+    bottom: 50px;
+    right: -60px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+
+}
+
+.Glassform-body .box .square:nth-child(4) {
+    bottom: -80px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.Glassform-body .box .square:nth-child(5) {
+    top: -80px;
+    left: 140px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.Glassform-body .container {
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.1) */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.Glassform-body .form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+}
+
+.Glassform-body .form h2 {
+    position: relative;
+    color: white;
+    font-size: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.Glassform-body .form h2::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: white;
+}
+
+.Glassform-body .form .inputbox {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.Glassform-body .form .inputbox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.Glassform-body .form .inputbox input::placeholder {
+    color: white;
+}
+
+.Glassform-body .form .inputbox input[type="submit"] {
+    background: white;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.Glassform-body .forget {
+    margin-top: 5px;
+    color: white;
+
+}
+
+.Glassform-body .forget a {
+    color: white;
+    font-weight: 600;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output14"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Gradient Hover Cube Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-15">
+        <textarea id="textareaHTML15" placeholder="HTML goes here..." onkeyup="compileHTML15(this)" style="width: 50vw; height: 200px;">
+           <div class="cube-body">
+        <div class="container">
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+    
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+    
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS15" placeholder="CSS goes here..." onkeyup="compileCSS15(this)" style="width: 50vw; height: 200px;">
+            
+.cube-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: #25335b;
+    position: relative;
+}
+
+.cube-body .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -80px;
+    transform: skewY(-20deg);
+    animation: animate-cube 5s linear infinite;
+}
+
+@keyframes animate-cube{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.cube-body .container .cube{
+    position: relative;
+    z-index: 2;
+}
+
+.cube-body .container .cube:nth-child(2){
+    z-index: 1;
+    translate: -60px -60px;
+}
+
+.cube-body .container .cube:nth-child(3){
+    z-index: 3;
+    translate: 60px 60px;
+}
+
+.cube-body .container .cube div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
+}
+
+.cube-body .container .cube div span{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #dcdcdc;
+    z-index: calc(1 * var(--i));
+    transition: 1.5sec;
+}
+
+.cube-body .container .cube div span:hover{
+    transition: 0s;
+    background: #ef4149;
+    filter: drop-shadow(0 0 30px #ef4149);
+}
+
+.cube-body .container .cube div span::before{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1.5s;
+}
+
+.cube-body .container .cube div span:hover::before{ 
+    transition: 0s;
+    background: #f75d64;
+} 
+
+.cube-body .container .cube div span::after{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1.5s;
+} 
+
+.cube-body .container .cube div span:hover::after{
+    transition: 0s;
+    background: #f14e55;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output15"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Typing Text #1</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-16">
+        <textarea id="textareaHTML16" placeholder="HTML goes here..." onkeyup="compileHTML16(this)" style="width: 50vw; height: 200px;">
+            <div class="text-typing-loading">
+      <div class="text-typing-loading-effect">
+        <h2>Loading...</h2>
+    </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS16" placeholder="CSS goes here..." onkeyup="compileCSS16(this)" style="width: 50vw; height: 200px;">
+            .text-typing-loading
+{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #121213;
+}
+
+.text-typing-loading .text-typing-loading-effect
+{
+    position: relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.text-typing-loading .text-typing-loading-effect::before
+{
+    content: '';
+    position:absolute;
+    top: -2;
+    right: 0;
+    width: 2px;
+    height: 50%;
+    background:#03e9f4;
+    animation: blinkcursor 0.8s steps(3) infinite;
+}
+@keyframes blinkcursor
+{
+    0%,75%
+    {
+        opacity:1;
+    }
+    76%,100%
+    {
+        opacity:0;
+    }
+}
+.text-typing-loading .text-typing-loading-effect h2
+{ 
+    font-family: consolas;
+    position: relative;
+    color:#03e9f4;
+    letter-spacing: 5px;
+    font-size :4em;
+    text-transform: uppercase;
+    animation: typing-loading 8s steps(10) infinite;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0002);  
+}
+@keyframes typing-loading
+{
+    0%,90%,100%
+    {
+        width: 0;
+    }
+     30%,60%
+    {
+        width: 401.88px;
+
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output16"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Hover Button</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-17">
+        <textarea id="textareaHTML17" placeholder="HTML goes here..." onkeyup="compileHTML17(this)" style="width: 50vw; height: 200px;">
+            <div class="Energy-Button-hover-box">
+      <div class="container">
+        <a href = "#"><span>Read More</span> </a>
+        <a href = "#"><span>Read More</span> </a>
+    </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS17" placeholder="CSS goes here..." onkeyup="compileCSS17(this)" style="width: 50vw; height: 200px;">
+           @import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+           .Energy-Button-hover-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+}
+.Energy-Button-hover-box .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Energy-Button-hover-box .container a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #0f0;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight:600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.Energy-Button-hover-box .container a:hover
+{
+    transition-delay: 1s;
+    color: #000;
+    box-shadow: 0 0 10px #0f0,
+    0 0 20px #0f0,
+    0 0 40px #0f0,
+    0 0 80px #0f0,
+    0 0 160px #0f0;
+}
+.Energy-Button-hover-box .container a span
+{
+    position: relative;
+    z-index:100;
+    font-family: 'Poppins', sans-serif;
+}
+.Energy-Button-hover-box .container a:nth-child(2)
+{
+    filter: hue-rotate(80deg);
+}
+.Energy-Button-hover-box .container a::before
+{
+content: '';
+position:absolute;
+left: -20px;
+top:50%;
+transform:translateY(-50%);
+width: 20px;
+height: 2px;
+background: #0f0;
+box-shadow: 5px -8px 0 #0f0,
+           5px 8px 0 #0f0;
+transition: width 0.5s, left 0.5s, height 0.5s,box-shadow 0.5s;
+transition-delay: 1s,0.5s, 0s, 0s;
+}
+.Energy-Button-hover-box .container a:hover::before
+{
+    width: 60%;
+    height: 100%;
+    left:-2px;
+    box-shadow: 5px 0 0 #0f0,
+                5px 0 0 #0f0;
+    transition-delay: 0s,0.5s,1s, 1s;
+    
+}
+.Energy-Button-hover-box .container a::after
+{
+content: '';
+position:absolute;
+right: -20px;
+top:50%;
+transform:translateY(-50%);
+width: 20px;
+height: 2px;
+background: #0f0;
+box-shadow: -5px -8px 0 #0f0,
+           -5px 8px 0 #0f0;
+transition: width 0.5s, left 0.5s, height 0.5s,box-shadow 0.5s;
+transition-delay: 1s,0.5s, 0s, 0s;
+}
+.Energy-Button-hover-box .container a:hover::after
+{
+    width: 60%;
+    height: 100%;
+    right:-2px;
+    box-shadow: -5px 0 0 #0f0,
+                -5px 0 0 #0f0;
+    transition-delay: 0s,0.5s, 1s, 1s;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output17"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Bubble Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-18">
+        <textarea id="textareaHTML18" placeholder="HTML goes here..." onkeyup="compileHTML18(this)" style="width: 50vw; height: 200px;">
+            <div class="Glowing-Upward-Light">
+      <div class="containerBubbles">
+        <div class="bubbles"> 
+         <span style= "--i:11;"> </span>
+         <span style= "--i:12;"> </span>
+         <span style= "--i:24;"> </span>
+         <span style= "--i:10;"> </span>
+         <span style= "--i:14;"> </span>
+         <span style= "--i:23;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:16;"> </span>
+         <span style= "--i:19;"> </span>
+         <span style= "--i:20;"> </span>
+         <span style= "--i:22;"> </span>
+         <span style= "--i:25;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:21;"> </span>
+         <span style= "--i:15;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:26;"> </span>
+         <span style= "--i:17;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:28;"> </span> 
+         <span style= "--i:11;"> </span>
+         <span style= "--i:12;"> </span>
+         <span style= "--i:24;"> </span>
+         <span style= "--i:10;"> </span>
+         <span style= "--i:14;"> </span>
+         <span style= "--i:23;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:16;"> </span>
+         <span style= "--i:19;"> </span>
+         <span style= "--i:20;"> </span>
+         <span style= "--i:22;"> </span>
+         <span style= "--i:25;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:21;"> </span>
+         <span style= "--i:15;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:26;"> </span>
+         <span style= "--i:17;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:28;"> </span> 
+        </div>
+ 
+     </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS18" placeholder="CSS goes here..." onkeyup="compileCSS18(this)" style="width: 50vw; height: 200px;">
+.Glowing-Upward-Light .containerBubbles
+{
+    background: #0c192c;
+    position: relative;
+    width:100%;
+    height:50vh;
+    overflow: hidden;
+}
+.Glowing-Upward-Light .bubbles
+{
+    position: relative;
+    display: flex;
+}
+.Glowing-Upward-Light .bubbles span
+{
+    position:relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+   box-shadow: 0 0 0  10px #4fc3dc44,
+   0 0 50px #4fc3dc,
+   0 0 100px #4fc3dc;
+   animation : animate-Glowing-Upward-Light  15s linear infinite;
+   animation-duration: calc(125s / var(--i));
+}
+.Glowing-Upward-Light .bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0 0 0  10px #ff2d7544,
+   0 0 50px #ff2d75,
+   0 0 100px #ff2d75;
+}
+
+@keyframes animate-Glowing-Upward-Light
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output18" style="padding: 0; margin:0"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Hailing/Raining Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-19">
+        <textarea id="textareaHTML19" placeholder="HTML goes here..." onkeyup="compileHTML19(this)" style="width: 50vw; height: 200px;">
+           <div class="RainingCloud">
+        <div class="container">
+            <div class="cloud">
+                <div class="rain">
+                    <span style="--i:11"></span>
+                    <span style="--i:12"></span>
+                    <span style="--i:10"></span>
+                    <span style="--i:14"></span>
+                    <span style="--i:18"></span>
+                    <span style="--i:16"></span>
+                    <span style="--1:14"></span>
+                    <span style="--i:19"></span>
+                    <span style="--i:20"></span>
+                    <span style="--i:19"></span>
+                    <span style="--i:10"></span>
+                    <span style="--i:16"></span>
+                    <span style="--i:14"></span>
+                    <span style="--i:18"></span>
+                    <span style="--i:11"></span>
+                    <span style="--i:13"></span>
+                    <span style="--i:15"></span>
+                    <span style="--i:12"></span>
+                    <span style="--i:17"></span>
+                    <span style="--i:13"></span>
+                    <span style="--i:15"></span>
+                    
+                </div>
+                                    
+            </div>
+        </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS19" placeholder="CSS goes here..." onkeyup="compileCSS19(this)" style="width: 50vw; height: 200px;">
+          *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.RainingCloud{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    min-width: 100%;
+    background: #181c1f;
+}
+.RainingCloud .container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    border-bottom: 2px solid #fff;
+}
+.RainingCloud .cloud{
+    position: relative;
+    
+    top:50px;
+    width: 320px;
+    height: 100px;
+    background: #fff;
+    border-radius: 100px;
+}
+.RainingCloud .cloud::before{
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: 40px;
+    width:110px;
+    height: 110px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 90px 0 0 30px #fff;
+}
+.RainingCloud .rain{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    padding: 0 20px;
+    top: 80px;
+}
+.RainingCloud .rain span{
+    position: relative;
+    bottom: 30px;
+    width: 10px;
+    height: 10px;
+    background:#fff;
+    margin: 0 2px;
+    border-radius: 50%;
+    animation: animateraincloud 15s linear infinite;
+    animation-duration: calc(15s / var(--i));
+    transform-origin: bottom ;
+
+}
+@keyframes animateraincloud{
+    0%
+    {
+        transform: translateY(0) scale(1);
+    }
+    70%
+    {
+        transform: translateY(298px) scale(1);
+    }
+    100%
+    {
+        transform: translateY(298px) scale(0);   
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output19"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Rotating Cube</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-20">
+        <textarea id="textareaHTML20" placeholder="HTML goes here..." onkeyup="compileHTML20(this)" style="width: 50vw; height: 200px;">
+          <div class="RotatingCubeBody">
+          <div class="slider">
+            <div class="container">
+              <div class="slide x"></div>
+              <div class="slide y"></div>
+              <div class="slide z"></div>
+            </div>
+            <div class="shadow"></div>
+          </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS20" placeholder="CSS goes here..." onkeyup="compileCSS20(this)" style="width: 50vw; height: 200px;">
+            .RotatingCubeBody{
+	min-width: 100%;
+	height: 50vh;
+	background: #FF0074;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	}
+
+
+.RotatingCubeBody .slider {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+ 	margin: auto;
+	-webkit-perspective: 600px;
+	        perspective: 600px;
+}
+
+.RotatingCubeBody .slider * {
+		-webkit-transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
+		        transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
+	}
+
+.RotatingCubeBody .container {
+		width: inherit;
+		height: inherit;
+		-webkit-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+		-webkit-transform: rotateY(0deg) rotateX(0deg);
+		        transform: rotateY(0deg) rotateX(0deg);
+	}
+.RotatingCubeBody .slide, .slide:after, .slide:before {
+			display: block;
+			width: inherit;
+			height: inherit;
+			background: url('https://cdn.dribbble.com/users/5031/screenshots/7008431/dribbble.png');
+			position: absolute;
+			-webkit-transform-style: preserve-3d;
+			        transform-style: preserve-3d;
+			background-size: cover;
+			background-position: center;
+		}
+
+.RotatingCubeBody .slide.x {
+		  -webkit-transform: rotateY(90deg);
+		          transform: rotateY(90deg);
+		} 
+
+.RotatingCubeBody .slide.x:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/730703/screenshots/6988911/elenidebo-thisiscolossal-theroad-forchicagodesignmuseum.jpg');
+				-webkit-transform: translateZ(100px) rotateZ(-90deg);
+				        transform: translateZ(100px) rotateZ(-90deg);
+			}
+
+.RotatingCubeBody .slide.x:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/329207/screenshots/6220354/bemocs_geneseo_sailing.jpg');
+				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
+				        transform: translateZ(-100px) rotateZ(-90deg);
+			}
+
+.RotatingCubeBody .slide.y {
+		  -webkit-transform: rotateX(90deg);
+		          transform: rotateX(90deg);
+		} 
+
+.RotatingCubeBody .slide.y:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/63407/screenshots/5705689/dribbble_moonlight_2x.png');
+				-webkit-transform: translateZ(100px) scale(-1);
+				        transform: translateZ(100px) scale(-1);
+			}
+
+.RotatingCubeBody .slide.y:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/1355613/screenshots/6441984/landscape_2x.jpg');
+				-webkit-transform: translateZ(-100px);
+				        transform: translateZ(-100px);
+			}
+
+.RotatingCubeBody .slide.z {
+		  -webkit-transform: rotateX(0);
+		          transform: rotateX(0);
+		} 
+
+.RotatingCubeBody .slide.z:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/7013817/the_caravan_by_patryk_wojciechowicz_2x.png');
+				-webkit-transform: translateZ(100px);
+				        transform: translateZ(100px);
+			}
+
+.RotatingCubeBody .slide.z:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/1361661/screenshots/6673317/music_girl.png');
+				-webkit-transform: translateZ(-100px);
+				        transform: translateZ(-100px);
+			}
+
+
+.RotatingCubeBody .container {
+			-webkit-animation: rotate123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+			animation: rotate123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+		}
+
+		@-webkit-keyframes rotate123 {
+			0%, 10% {-webkit-transform: rotateY(0deg) rotateX(0deg);transform: rotateY(0deg) rotateX(0deg);}
+			15%, 20% {-webkit-transform: rotateY(180deg) rotateX(0deg);transform: rotateY(180deg) rotateX(0deg);}
+			25%, 35% {-webkit-transform: rotateY(180deg) rotateX(270deg);transform: rotateY(180deg) rotateX(270deg);}
+			40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);transform: rotateY(180deg) rotateX(90deg);}
+			55%, 65% {-webkit-transform: rotateY(-90deg) rotateX(90deg);transform: rotateY(-90deg) rotateX(90deg);}
+			70%, 80% {-webkit-transform: rotateY(90deg) rotateX(90deg);transform: rotateY(90deg) rotateX(90deg);}
+			90%, 95% {-webkit-transform: rotateY(0deg) rotateX(90deg);transform: rotateY(0deg) rotateX(90deg);}
+		}
+
+		@keyframes rotate123 {
+			0%, 10% {-webkit-transform: rotateY(0deg) rotateX(0deg);transform: rotateY(0deg) rotateX(0deg);}
+			15%, 20% {-webkit-transform: rotateY(180deg) rotateX(0deg);transform: rotateY(180deg) rotateX(0deg);}
+			25%, 35% {-webkit-transform: rotateY(180deg) rotateX(270deg);transform: rotateY(180deg) rotateX(270deg);}
+			40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);transform: rotateY(180deg) rotateX(90deg);}
+			55%, 65% {-webkit-transform: rotateY(-90deg) rotateX(90deg);transform: rotateY(-90deg) rotateX(90deg);}
+			70%, 80% {-webkit-transform: rotateY(90deg) rotateX(90deg);transform: rotateY(90deg) rotateX(90deg);}
+			90%, 95% {-webkit-transform: rotateY(0deg) rotateX(90deg);transform: rotateY(0deg) rotateX(90deg);}
+		}
+
+
+.RotatingCubeBody .shadow {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: rgba(0,0,0,0.75);
+	position: absolute;
+	top: 60%;
+	-webkit-transform: rotateX(90deg);
+	        transform: rotateX(90deg);
+	z-index: -1;
+	-webkit-filter: blur(20px);
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="20" /></filter></svg>#filter');
+	-webkit-filter: blur(20px);
+	        filter: blur(20px);
+	left: 0;
+	right: 0;
+	margin: auto;
+	animation: rotateShadow123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+	animation: rotateShadow123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+}
+
+	@keyframes rotateShadow123 {
+		0%, 10% {-webkit-transform: rotateY(0deg) rotateX(90deg);}	
+		15%, 20% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		20.1%, 20.9% {-webkit-transform: rotateY(180deg) rotateX(90deg) translatez(5px);}
+		25%, 35% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		35.1%, 35.9% {-webkit-transform: rotateY(180deg) rotateX(90deg) translatez(-5px);}
+		40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		55%, 65% {-webkit-transform: rotateY(0deg) rotateX(90deg);}
+		70%, 80% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		90%, 99% {-webkit-transform: rotateY(90deg) rotateX(90deg);}
+		99.1%, 99.9% {-webkit-transform: rotateY(90deg) rotateX(90deg) translatez(-5px);}
+	}
+
+    
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output20"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Glitching Text</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-21">
+        <textarea id="textareaHTML21" placeholder="HTML goes here..." onkeyup="compileHTML21(this)" style="width: 50vw; height: 200px;">
+          <div class="GlitchTextBody">
+        <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+        <div class="glitch" data-text="GLITCH">GLITCH</div> 
+    </div>
+        </textarea>
+        <textarea id="textareaCSS21" placeholder="CSS goes here..." onkeyup="compileCSS21(this)" style="width: 50vw; height: 200px;">
+         .GlitchTextBody {
+    background: black;
+    font-family: 'Varela', sans-serif;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .GlitchTextBody .glitch {
+    color: white;
+    font-size: 100px;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  @keyframes noise-anim {
+    0% {
+      clip: rect(82px, 9999px, 6px, 0);
+    }
+    5% {
+      clip: rect(19px, 9999px, 36px, 0);
+    }
+    10% {
+      clip: rect(81px, 9999px, 99px, 0);
+    }
+    15% {
+      clip: rect(38px, 9999px, 98px, 0);
+    }
+    20% {
+      clip: rect(85px, 9999px, 4px, 0);
+    }
+    25% {
+      clip: rect(85px, 9999px, 17px, 0);
+    }
+    30% {
+      clip: rect(38px, 9999px, 19px, 0);
+    }
+    35% {
+      clip: rect(76px, 9999px, 35px, 0);
+    }
+    40% {
+      clip: rect(78px, 9999px, 13px, 0);
+    }
+    45% {
+      clip: rect(32px, 9999px, 39px, 0);
+    }
+    50% {
+      clip: rect(80px, 9999px, 17px, 0);
+    }
+    55% {
+      clip: rect(99px, 9999px, 5px, 0);
+    }
+    60% {
+      clip: rect(59px, 9999px, 20px, 0);
+    }
+    65% {
+      clip: rect(94px, 9999px, 48px, 0);
+    }
+    70% {
+      clip: rect(41px, 9999px, 79px, 0);
+    }
+    75% {
+      clip: rect(8px, 9999px, 89px, 0);
+    }
+    80% {
+      clip: rect(52px, 9999px, 47px, 0);
+    }
+    85% {
+      clip: rect(88px, 9999px, 85px, 0);
+    }
+    90% {
+      clip: rect(38px, 9999px, 73px, 0);
+    }
+    95% {
+      clip: rect(63px, 9999px, 13px, 0);
+    }
+    100% {
+      clip: rect(29px, 9999px, 10px, 0);
+    }
+  }
+  .GlitchTextBody .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(62px, 9999px, 58px, 0);
+    }
+    5% {
+      clip: rect(25px, 9999px, 29px, 0);
+    }
+    10% {
+      clip: rect(18px, 9999px, 79px, 0);
+    }
+    15% {
+      clip: rect(6px, 9999px, 79px, 0);
+    }
+    20% {
+      clip: rect(35px, 9999px, 98px, 0);
+    }
+    25% {
+      clip: rect(90px, 9999px, 89px, 0);
+    }
+    30% {
+      clip: rect(34px, 9999px, 26px, 0);
+    }
+    35% {
+      clip: rect(46px, 9999px, 44px, 0);
+    }
+    40% {
+      clip: rect(90px, 9999px, 28px, 0);
+    }
+    45% {
+      clip: rect(75px, 9999px, 90px, 0);
+    }
+    50% {
+      clip: rect(96px, 9999px, 35px, 0);
+    }
+    55% {
+      clip: rect(32px, 9999px, 4px, 0);
+    }
+    60% {
+      clip: rect(30px, 9999px, 80px, 0);
+    }
+    65% {
+      clip: rect(26px, 9999px, 25px, 0);
+    }
+    70% {
+      clip: rect(50px, 9999px, 27px, 0);
+    }
+    75% {
+      clip: rect(75px, 9999px, 95px, 0);
+    }
+    80% {
+      clip: rect(8px, 9999px, 1px, 0);
+    }
+    85% {
+      clip: rect(44px, 9999px, 73px, 0);
+    }
+    90% {
+      clip: rect(50px, 9999px, 82px, 0);
+    }
+    95% {
+      clip: rect(86px, 9999px, 78px, 0);
+    }
+    100% {
+      clip: rect(8px, 9999px, 1px, 0);
+    }
+  }
+  .GlitchTextBody .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s infinite linear alternate-reverse;
+  }
+  
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output21"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Floating Cube Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-22">
+        <textarea id="textareaHTML22" placeholder="HTML goes here..." onkeyup="compileHTML22(this)" style="width: 50vw; height: 200px;">
+           <div class="FloatingCubeBG">
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+</div>
+        </textarea>
+        <textarea id="textareaCSS22" placeholder="CSS goes here..." onkeyup="compileCSS22(this)" style="width: 50vw; height: 200px;">
+        @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.FloatingCubeBG{
+    font-family: 'Exo', sans-serif;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.FloatingCubeBG .area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:50vh;
+}
+
+.FloatingCubeBG .circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.FloatingCubeBG .circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animateFloatingCubeBG 25s linear infinite;
+    bottom: -150px;
+}
+
+.FloatingCubeBG .circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.FloatingCubeBG .circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.FloatingCubeBG .circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.FloatingCubeBG .circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.FloatingCubeBG .circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.FloatingCubeBG .circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.FloatingCubeBG .circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.FloatingCubeBG .circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.FloatingCubeBG .circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.FloatingCubeBG .circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+@keyframes animateFloatingCubeBG {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output22"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Disco Hover Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-23">
+        <textarea id="textareaHTML23" placeholder="HTML goes here..." onkeyup="compileHTML23(this)" style="width: 50vw; height: 200px;">
+          <div class="discoHoverDiv">
+        <section>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </section>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS23" placeholder="CSS goes here..." onkeyup="compileCSS23(this)" style="width: 50vw; height: 200px;">
+        
+.discoHoverDiv section
+{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #001300;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    animation: changeColor123 5s linear infinite;
+
+}
+@keyframes changeColor123
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+.discoHoverDiv span
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+
+}
+.discoHoverDiv span::before
+{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    transform: scale(0.1);
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 2s;
+}
+.discoHoverDiv span:hover::before
+{
+    transform: scale(1);
+    transition: 0s;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output23"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Disco Cube Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-24">
+        <textarea id="textareaHTML24" placeholder="HTML goes here..." onkeyup="compileHTML24(this)" style="width: 50vw; height: 200px;">
+          <div class="DiscoBG">
+    <section>
+        <i style="--i:1";></i><i style="--i:12";></i>
+ <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i><i style="--i:27";></i>
+ 
+    </section>
+</div>
+        </textarea>
+        <textarea id="textareaCSS24" placeholder="CSS goes here..." onkeyup="compileCSS24(this)" style="width: 50vw; height: 200px;">     
+.DiscoBG section
+{
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.DiscoBG section i
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #222;
+    animation: animateDiscoLight 6s linear infinite, animateDiscoBg 5s linear infinite ;
+}
+.DiscoBG section i:nth-child(5n+1)
+{
+    animation: animateDiscoLight 2s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-1s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+2)
+{
+    animation: animateDiscoLight 3s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-1.5s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+3)
+{
+    animation: animateDiscoLight 4s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-2s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+4)
+{
+    animation: animateDiscoLight 5s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-2.5s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+5)
+{
+    animation: animateDiscoLight 6s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-3s* var(--i));
+}
+@keyframes animateDiscoLight {
+    0%,20%
+    {
+        background: #222;
+    }
+    60%
+    {
+        background: #0f0;
+    }
+    80% , 100%
+    {
+        background: #222;
+    }
+}
+@keyframes animateDiscoBg {
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output24"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Folding Map Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-25">
+        <textarea id="textareaHTML25" placeholder="HTML goes here..." onkeyup="compileHTML25(this)" style="width: 50vw; height: 200px;">
+          <div class="FoldingMap">
+        <div class="box">
+            <span style="--1:0;"></span>
+            <span style="--1:1;"></span>
+            <span style="--1:2;"></span>
+            <span style="--1:3;"></span>
+        </div>
+    </div>
+    </textarea> 
+        <textarea id="textareaCSS25" placeholder="CSS goes here..." onkeyup="compileCSS25(this)" style="width: 50vw; height: 200px;">     
+.FoldingMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #2f364f;
+}
+.FoldingMap .box{
+    width: 450px;
+    height: 200px;
+    transform: rotate(-25deg) skew(25deg);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FoldingMap .box:hover{
+    transform: rotate(-25deg) skew(-25deg) translateY(-20px);
+}
+.FoldingMap .box span{
+    width: 25%;
+    height: 100%;
+    background:url(/public/images/GreenYellowBG.jpg);
+    background-size: cover;
+    background-position:calc(-160px * var(--i)) ;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.FoldingMap .box:hover span:nth-child(odd){
+    transform: skewY(25deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+.FoldingMap .box:hover span:nth-child(even){
+    transform: skewY(-25deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output25"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Infinty Loader</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-26">
+        <textarea id="textareaHTML26" placeholder="HTML goes here..." onkeyup="compileHTML26(this)" style="width: 50vw; height: 200px;">
+          <div class="InfinityLoader">
+    <section>
+        <div class="container">
+            <div class="circle">
+                <span style="--i:0;"></span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+                <span style="--i:4;"></span>
+                <span style="--i:5;"></span>
+                <span style="--i:6;"></span>
+                <span style="--i:7;"></span>
+                <span style="--i:8;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                
+            </div>
+            <div class="circle">
+                <span style="--i:0;"></span>
+                <span style="--i:1;"></span>
+                <span style="--i:2;"></span>
+                <span style="--i:3;"></span>
+                <span style="--i:4;"></span>
+                <span style="--i:5;"></span>
+                <span style="--i:6;"></span>
+                <span style="--i:7;"></span>
+                <span style="--i:8;"></span>
+                <span style="--i:9;"></span>
+                <span style="--i:10;"></span>
+                <span style="--i:11;"></span>
+                <span style="--i:12;"></span>
+                <span style="--i:13;"></span>
+                <span style="--i:14;"></span>
+                <span style="--i:15;"></span>
+                <span style="--i:16;"></span>
+                <span style="--i:17;"></span>
+                <span style="--i:18;"></span>
+                <span style="--i:19;"></span>
+                <span style="--i:20;"></span>
+                
+            </div>
+        </div>
+    </section>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS26" placeholder="CSS goes here..." onkeyup="compileCSS26(this)" style="width: 50vw; height: 200px;">
+.InfinityLoader section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #042104;
+    animation: animateInfinityLoaderColor 8s linear infinite;
+}
+@keyframes animateInfinityLoaderColor
+{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+.InfinityLoader section .container
+{
+    display: flex;
+    justify-content:center;
+    position: relative;
+}
+.InfinityLoader section .container .circle
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 -7.5px;;
+
+}
+.InfinityLoader section .container .circle span
+{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    transform: rotate(calc(18deg * var(--i)));
+    /* 360 / 20 = 18deg */
+    
+}
+.InfinityLoader section .container .circle span::before
+{
+    content: '';
+    position: absolute;
+    right:0;
+    top:calc(50% - 7.5px);
+    width: 15px;
+    height: 15px;
+    background: #00ff0a;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    transform: scale(0.1);
+    animation: animateInfinityLoader 4s linear infinite;
+    animation-delay:calc(0.1s* var(--i)) ;
+
+}
+@keyframes animateInfinityLoader{
+    0%{
+        transform: scale(1);
+    }
+    50%,100%{
+        transform: scale(0.1) ;
+    }
+}
+.InfinityLoader section .container .circle:nth-child(2){
+    transform: rotate(-180deg);
+}
+.InfinityLoader section .container .circle:nth-child(2) span::before{
+    animation-delay: calc(-0.1s * var(--i));
+}
+
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output26"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Milking Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-27">
+        <textarea id="textareaHTML27" placeholder="HTML goes here..." onkeyup="compileHTML27(this)" style="width: 50vw; height: 200px;">
+<div class="ColourDotsLoaderDiv">
+    <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+  <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <filter id="goo">
+        <feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur" />
+        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+        <feBlend in="SourceGraphic" in2="goo" />
+        </filter>
+    </defs>
+  </svg>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS27" placeholder="CSS goes here..." onkeyup="compileCSS27(this)" style="width: 50vw; height: 200px;">     
+.ColourDotsLoaderDiv {
+background: #000;
+position: relative;
+height:50vh;
+  }
+  
+.ColourDotsLoaderDiv .dots {
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    filter: url(#goo);
+  }
+  
+  .ColourDotsLoaderDiv .dot{
+    width: 0;
+    height: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .ColourDotsLoaderDiv .dot:before {
+    content: "";
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background: #FBD301;
+    position: absolute;
+    left: 50%;
+    transform: translateY(0) rotate(0deg);
+    margin-left: -17.5px;
+    margin-top: -17.5px;
+  }
+  @-webkit-keyframes dot-move {
+    0% {
+      transform: translateY(0);
+    }
+    18%, 22% {
+      transform: translateY(-70px);
+    }
+    40%, 100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes dot-move {
+    0% {
+      transform: translateY(0);
+    }
+    18%, 22% {
+      transform: translateY(-70px);
+    }
+    40%, 100% {
+      transform: translateY(0);
+    }
+  }
+  @-webkit-keyframes dot-colors {
+    0% {
+      background-color: #FBD301;
+    }
+    25% {
+      background-color: #FF3270;
+    }
+    50% {
+      background-color: #208BF1;
+    }
+    75% {
+      background-color: #AFE102;
+    }
+    100% {
+      background-color: #FBD301;
+    }
+  }
+  @keyframes dot-colors {
+    0% {
+      background-color: #FBD301;
+    }
+    25% {
+      background-color: #FF3270;
+    }
+    50% {
+      background-color: #208BF1;
+    }
+    75% {
+      background-color: #AFE102;
+    }
+    100% {
+      background-color: #FBD301;
+    }
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(5):before {
+    z-index: 100;
+    width: 45.5px;
+    height: 45.5px;
+    margin-left: -22.75px;
+    margin-top: -22.75px;
+    -webkit-animation: dot-colors 4s ease infinite;
+            animation: dot-colors 4s ease infinite;
+  }
+  @-webkit-keyframes dot-rotate-1 {
+    0% {
+      transform: rotate(-105deg);
+    }
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+  @keyframes dot-rotate-1 {
+    0% {
+      transform: rotate(-105deg);
+    }
+    100% {
+      transform: rotate(270deg);
+    }
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(1) {
+    -webkit-animation: dot-rotate-1 4s 0s linear infinite;
+            animation: dot-rotate-1 4s 0s linear infinite;
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(1):before {
+    background-color: #FF3270;
+    -webkit-animation: dot-move 4s 0s ease infinite;
+            animation: dot-move 4s 0s ease infinite;
+  }
+  @-webkit-keyframes dot-rotate-2 {
+    0% {
+      transform: rotate(165deg);
+    }
+    100% {
+      transform: rotate(540deg);
+    }
+  }
+  @keyframes dot-rotate-2 {
+    0% {
+      transform: rotate(165deg);
+    }
+    100% {
+      transform: rotate(540deg);
+    }
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(2) {
+    -webkit-animation: dot-rotate-2 4s 1s linear infinite;
+            animation: dot-rotate-2 4s 1s linear infinite;
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(2):before {
+    background-color: #208BF1;
+    -webkit-animation: dot-move 4s 1s ease infinite;
+            animation: dot-move 4s 1s ease infinite;
+  }
+  @-webkit-keyframes dot-rotate-3 {
+    0% {
+      transform: rotate(435deg);
+    }
+    100% {
+      transform: rotate(810deg);
+    }
+  }
+  @keyframes dot-rotate-3 {
+    0% {
+      transform: rotate(435deg);
+    }
+    100% {
+      transform: rotate(810deg);
+    }
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(3) {
+    -webkit-animation: dot-rotate-3 4s 2s linear infinite;
+            animation: dot-rotate-3 4s 2s linear infinite;
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(3):before {
+    background-color: #AFE102;
+    -webkit-animation: dot-move 4s 2s ease infinite;
+            animation: dot-move 4s 2s ease infinite;
+  }
+  @-webkit-keyframes dot-rotate-4 {
+    0% {
+      transform: rotate(705deg);
+    }
+    100% {
+      transform: rotate(1080deg);
+    }
+  }
+  @keyframes dot-rotate-4 {
+    0% {
+      transform: rotate(705deg);
+    }
+    100% {
+      transform: rotate(1080deg);
+    }
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(4) {
+    -webkit-animation: dot-rotate-4 4s 3s linear infinite;
+            animation: dot-rotate-4 4s 3s linear infinite;
+  }
+  .ColourDotsLoaderDiv .dot:nth-child(4):before {
+    background-color: #FBD301;
+    -webkit-animation: dot-move 4s 3s ease infinite;
+            animation: dot-move 4s 3s ease infinite;
+  }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output27"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Zoom-In Hover Card Image</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-28">
+        <textarea id="textareaHTML28" placeholder="HTML goes here..." onkeyup="compileHTML28(this)" style="width: 50vw; height: 200px;">
+          <div class="ProfileCardHoverDiv">
+    <div class="container">
+        <div class="card card0">
+          <div class="border">
+            <h2>Al Pacino</h2>
+          </div>
+        </div>
+        <div class="card card1">
+          <div class="border">
+            <h2>Ben Stiller</h2>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="border">
+            <h2>Patrick Stewart</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    </textarea> 
+        <textarea id="textareaCSS28" placeholder="CSS goes here..." onkeyup="compileCSS28(this)" style="width: 50vw; height: 200px;">     
+.ProfileCardHoverDiv .container{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ProfileCardHoverDiv .border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.ProfileCardHoverDiv .border:hover{
+border: 1px solid white;
+}
+.ProfileCardHoverDiv .card
+{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ProfileCardHoverDiv .card0
+{
+  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
+  background-size: 300px
+}
+.ProfileCardHoverDiv .card0:hover{
+background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
+background-size: 600px
+  }
+  .ProfileCardHoverDiv h2
+{opacity: 1}
+  
+
+.ProfileCardHoverDiv .fa
+{opacity: 1}
+.ProfileCardHoverDiv .card1
+{
+  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+  background-size: 300px
+}
+
+.ProfileCardHoverDiv .card1:hover{
+background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+background-size: 600px
+  }
+
+.ProfileCardHoverDiv h2
+{opacity: 1}
+  
+.ProfileCardHoverDiv .fa
+{opacity: 1}
+.ProfileCardHoverDiv .card2{
+  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+  background-size: 300px;
+}
+
+.ProfileCardHoverDiv .card2:hover{
+background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+background-size: 600px
+}
+.ProfileCardHoverDiv h2{
+  opacity: 1
+}
+.ProfileCardHoverDiv .fa{
+  opacity: 1
+}
+.ProfileCardHoverDiv h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  opacity: 1;
+  transition: opacity 1s
+}
+.ProfileCardHoverDiv .fa{
+  opacity: 1;
+  transition: opacity 1s;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output28"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Static Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-29">
+        <textarea id="textareaHTML29" placeholder="HTML goes here..." onkeyup="compileHTML29(this)" style="width: 50vw; height: 200px;">
+<div class="ribbon_design">
+    <section>
+        <div class="layer layer1"></div>
+        <div class="layer layer2"></div>
+        <div class="layer layer3"></div>
+        <div class="layer layer4"></div>
+        <div class="layer layer5"></div>
+        <div class="layer layer6"></div>
+        <div class="layer layer7"></div>
+        <div class="layer layer8"></div>
+        <div class="layer layer9"></div>
+    </section>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS29" placeholder="CSS goes here..." onkeyup="compileCSS29(this)" style="width: 50vw; height: 200px;">     
+
+.ribbon_design section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    overflow: hidden;
+}
+
+.ribbon_design .layer{
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.ribbon_design .layer1{
+    background: #03a9f4;
+    transform: skewX(-45deg) translate(0);
+    z-index: 1;
+}
+
+.ribbon_design .layer2{
+    background: #fff;
+    transform: skewX(-45deg) translate(-100px);
+    z-index: 3;
+}
+
+.ribbon_design .layer.layer3{
+    background: #ff3161;
+    transform: skewX(-45deg) translate(-200px);
+    z-index: 5;
+} 
+
+.ribbon_design .layer.layer4{
+    background: #222;
+    transform: skewX(-45deg) translate(-300px);
+    z-index: 10;
+}
+
+.ribbon_design .layer.layer5{
+    background: #ff3161;
+    transform: skewX(45deg) translate(0px);
+    z-index: 2;
+}
+
+.ribbon_design .layer.layer6{
+    background: #03a9f4;
+    transform: skewX(45deg) translate(-100px);
+    z-index: 4;
+}
+
+.ribbon_design .layer.layer7{
+    background: #fff;
+    transform: skewX(45deg) translate(-200px);
+    z-index: 6;
+}
+
+.ribbon_design .layer.layer8{
+    background: #222;
+    transform: skewX(45deg) translate(-300px);
+    z-index: 8;
+}
+
+.ribbon_design .layer.layer9{
+    background: transparent;
+    transform: skewX(45deg) translate(-300px);
+    z-index: 10;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output29"></div>
+    <br/>
+     <h1 class="Main-Body-h1">Cloud Effect</h1>
+     <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-30">
+        <textarea id="textareaHTML30" placeholder="HTML goes here..." onkeyup="compileHTML30(this)" style="width: 50vw; height: 200px;">
+<div class="movingCloud">
+    <div class="banner">
+        <div class="clouds">
+            <img src="public\images\hmcloud1.png" style="--i:1" alt="clouds">
+            <img src="public\images\hmcloud2.png" style="--i:2" alt="clouds">
+            <img src="public\images\hmcloud3.png" style="--i:3" alt="clouds">
+            <img src="public\images\hmcloud4.png" style="--i:4" alt="clouds">
+            <img src="public\images\hmcloud5.png" style="--i:5" alt="clouds">
+        </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS30" placeholder="CSS goes here..." onkeyup="compileCSS30(this)" style="width: 50vw; height: 200px;">     
+.movingCloud .banner{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url(public/images/hmcloud.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+.movingCloud .banner .clouds{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    overflow: hidden;
+}
+
+.movingCloud .banner .clouds img{
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animatemovingCloud  calc(8s * var(--i)) linear infinite;
+}
+
+@keyframes animatemovingCloud {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+} 
+
+.movingCloud section{
+    position: relative;
+    /* padding: 75% 100px; */
+}
+
+.movingCloud section h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output30"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Expand Search Box</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-31">
+        <textarea id="textareaHTML31" placeholder="HTML goes here..." onkeyup="compileHTML31(this)" style="width: 50vw; height: 200px;">
+<div class="AnimatedSearchBox">
+	<div class="container">
+		<div class="searchbox">
+			<input type="text" class="searchbox__input" placeholder="Search..." />
+			<svg class="searchbox__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56.966 56.966">
+				<path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17s-17-7.626-17-17S14.61,6,23.984,6z" />
+			</svg>
+		</div>
+	</div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS31" placeholder="CSS goes here..." onkeyup="compileCSS31(this)" style="width: 50vw; height: 200px;">     
+.AnimatedSearchBox{
+  background-color: #26547C;
+}
+
+.AnimatedSearchBox .container {
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.AnimatedSearchBox .container .searchbox {
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 53px;
+  transition: 0.4s linear;
+  overflow: hidden;
+}
+.AnimatedSearchBox .container .searchbox .searchbox__input {
+  display: block;
+  appearance: none;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background-color: #24233A;
+  padding: 15px;
+  color: #24233A;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.AnimatedSearchBox .container .searchbox .searchbox__input::placeholder {
+  color: #24233A;
+}
+.AnimatedSearchBox .container .searchbox .searchbox__icon {
+  position: absolute;
+  right: calc(53px / 2);
+  top: 50%;
+  transform: translate(50%, -50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+.AnimatedSearchBox .container .searchbox .searchbox__icon path {
+  fill: #00F494;
+  transition: 0.4s linear;
+}
+.AnimatedSearchBox .container .searchbox:focus-within {
+  max-width: 300px;
+}
+.AnimatedSearchBox .container .searchbox:focus-within .searchbox__input {
+  background-color: #FFF;
+  padding-right: 50px;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+.AnimatedSearchBox .container .searchbox:focus-within .searchbox__icon path {
+  fill: #24233A;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output31"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Scanning Search Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-32">
+        <textarea id="textareaHTML32" placeholder="HTML goes here..." onkeyup="compileHTML32(this)" style="width: 50vw; height: 200px;">
+<div class="CSSFinger">
+    <div class="scanner">
+        <div class="fingarprint">
+        </div>
+        <h3>Scanning ....</h3>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS32" placeholder="CSS goes here..." onkeyup="compileCSS32(this)" style="width: 50vw; height: 200px;">     
+.CSSFinger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #111;
+}
+
+.CSSFinger .scanner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CSSFinger .scanner .fingarprint {
+    position: relative;
+    width: 300px;
+    height: 380px;
+    background: url(/public/images/fingerimg.png);
+    background-size: 300px;
+}
+
+.CSSFinger .scanner .fingarprint::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(/public/images/fingerimage2.png);
+    background-size: 300px;
+    animation: CSSFingeranimate 4s ease-in-out infinite;
+}
+
+@keyframes CSSFingeranimate {
+    0%,
+    100% {
+        height: 0%;
+    }
+    50% {
+        height: 100%;
+    }
+}
+
+.CSSFinger .scanner .fingarprint::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+    background: #3fefef;
+    border-radius: 8px;
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+    animation: CSSFingeranimate_line 4s ease-in-out infinite;
+}
+
+@keyframes CSSFingeranimate_line {
+    0%,
+    100% {
+        top: 0%;
+    }
+    50% {
+        top: 100%;
+    }
+}
+
+.scanner h3 {
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    color: #3fefef;
+    filter: drop-shadow(0 0 20px #3fefef) drop-shadow(0 0 60px #3fefef);
+    animation: CSSFingeranimate_text 0.5s steps(1) infinite;
+}
+
+@keyframes CSSFingeranimate_text {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output32"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Energy Ball</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-33">
+        <textarea id="textareaHTML33" placeholder="HTML goes here..." onkeyup="compileHTML33(this)" style="width: 50vw; height: 200px;">
+<div class="EnergyBall">
+<div class="energy">        
+    <span style="--ctr:#fbad04;--i:18px;--d:2.5s;"></span>
+    <span style="--ctr:#03a1d9;--i:13px;--d:5s;"></span>
+    <span style="--ctr:#f7036d;--i:15px;--d:7.5s;"></span>
+    <span style="--ctr:#93ff16;--i:20px;--d:10s;"></span>      
+</div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS33" placeholder="CSS goes here..." onkeyup="compileCSS33(this)" style="width: 50vw; height: 200px;">
+.EnergyBall
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: #000;
+}
+
+.EnergyBall .energy
+{
+    position: relative;
+    width: 300px;
+    height: 300px;    
+}
+
+.EnergyBall .energy span
+{
+    position: absolute;
+    width: calc(300px + var(--i));
+    height: calc(300px + var(--i));
+    background: var(--ctr);
+    border-radius: 50%;
+    transform-origin: calc(100px + var(--i));  
+    animation: EnergyBallanimate 5s linear infinite;
+    animation-duration: calc(var(--d));
+    mix-blend-mode: plus-lighter;   
+    filter: blur(30px);   
+}
+
+.EnergyBall .energy span:nth-child(even) 
+{
+    animation-direction: reverse;       
+}
+
+@keyframes EnergyBallanimate
+{
+    0%
+    {
+        transform: rotate(0deg);    
+
+    }
+    100%
+     {
+       transform: rotate(360deg);      
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output33"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Login Form</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-34">
+        <textarea id="textareaHTML34" placeholder="HTML goes here..." onkeyup="compileHTML34(this)" style="width: 50vw; height: 200px;">
+<div class="NeonLoginPage">
+    <div class="box"> 
+        <div class="form">
+
+        <h2>Sign in </h2>
+        <div class="inputbox">
+          <input type="text" required="required" >
+          <span>Username </span>
+          <i></i>
+        </div>
+
+        <div class="inputbox">
+            <input type="password" required="required" >
+            <span>Password</span>
+            <i></i>
+          </div>
+
+          <div class="links">
+            <a href="#"> Forgot Password</a>
+            <a href="#">Signup</a>
+          </div>
+          <input type="submit" value="Login">
+    </div>
+  </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS34" placeholder="CSS goes here..." onkeyup="compileCSS34(this)" style="width: 50vw; height: 200px;">
+.NeonLoginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: #23242a;
+    }
+    .NeonLoginPage .box{
+        position: relative;
+        width: 380px;
+        height: 420px;
+        background: #1c1c1c;
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .NeonLoginPage .box::before{
+        content: '';
+        position: absolute;
+        top: -50%;
+        left:-50% ;
+        width: 320px;
+        height: 420px;
+        background:linear-gradient(0deg,transparent,#45f3ff,
+        transparent,#45f3ff) ;
+        transform-origin: bottom right;
+        animation: NeonLoginPageanimate 6s linear infinite;
+    }
+    .NeonLoginPage .box::after{
+        content: '';
+        position: absolute;
+        top: -50%;
+        left:-50% ;
+        width: 320px;
+        height: 420px;
+        background:linear-gradient(10deg,transparent,#45f3ff,
+        transparent,#45f3ff) ;
+        transform-origin: bottom right;
+        animation: NeonLoginPageanimate 6s linear infinite;
+        animation-delay: -3s;
+    }
+    @keyframes NeonLoginPageanimate{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    .NeonLoginPage .form{
+        position:absolute;
+        inset: 2px;
+        border-radius: 8px;
+        background: #28292d;
+        z-index: 10;
+		padding:50px 40px;
+		display: flex;
+		flex-direction: column;
+    }
+	.NeonLoginPage .form h2{
+		color: #45f3ff;
+		font-weight: 500;
+		text-align: center;
+		letter-spacing: 0.1em;
+	}
+	.NeonLoginPage .inputbox{
+		position: relative;
+		width: 300px;
+		margin-top: 35px;
+
+}
+
+.NeonLoginPage .inputbox input{
+	position: relative;
+	width: 100%;
+	padding: 20px 10px 10px;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: #23242a;
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	z-index: 10;
+}
+
+.NeonLoginPage .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 20px 0px 10px;
+	font-size: 1em;
+	color: #8f8f8f;
+	pointer-events: none;
+	letter-spacing: 0.05em;
+	transition: 0.5s;
+}
+.NeonLoginPage .inputbox input:valid ~ span,
+.NeonLoginPage .inputbox input:focus ~ span
+{
+	color: #45f3ff;
+	transform:translateX(0px) translateY(-34px);
+	font-size: 0.75em;
+}
+.NeonLoginPage .inputbox i{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 2px;
+	background: #45f3ff;
+	border-radius: 4px;
+	transition: 0.5s;
+	pointer-events: none;
+}
+.NeonLoginPage .inputbox input:valid ~ i,
+.NeonLoginPage .inputbox input:focus ~ i{
+  height: 44px;
+}
+.NeonLoginPage .links{
+	display: flex;
+	justify-content: space-between;
+}
+.NeonLoginPage .links a{
+	margin: 10px 0;
+	font-size: 0.75em;
+	color: #8f8f8f;
+	text-decoration: none;
+}
+.NeonLoginPage .links a:hover,
+.NeonLoginPage .links a:nth-child(2){
+	color: #45f3ff;
+}
+.NeonLoginPage input[type="submit"]
+{
+	border: none;
+	outline: none;
+	background: #45f3ff;
+	padding: 11px 25px;
+	width: 100px;
+	margin-top: 10px;
+	border-radius: 4px;
+	font-weight: 600;
+	cursor: pointer;
+}
+.NeonLoginPage input[type="submit"]:active
+{
+	opacity: 0.8;
+}
+
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output34"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Flip Card Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-35">
+        <textarea id="textareaHTML35" placeholder="HTML goes here..." onkeyup="compileHTML35(this)" style="width: 50vw; height: 200px;">
+<div class="FlipCard">
+    <div class="card middle">
+      <div class="front">
+        <img src="/public/images/FlipCardImg.jpg" alt="">
+      </div>
+      <div class="back">
+        <div class="back-content middle">
+          <h2>TEAM PROJECT</h2>
+          <span>Css Effectus</span>
+          <div class="sm">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS35" placeholder="CSS goes here..." onkeyup="compileCSS35(this)" style="width: 50vw; height: 200px;">
+.FlipCard{
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+  }
+  .FlipCard .middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .FlipCard .card{
+    cursor: pointer;
+    width: 340px;
+    height: 480px;
+  }
+  .FlipCard .front,.back{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+  }
+  .FlipCard .front img{
+    height: 100%;
+  }
+  .FlipCard .front{
+    transform: perspective(600px) rotateY(0deg);
+  }
+  .FlipCard .back{
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+  }
+  .FlipCard .back-content{
+    color: #2c3e50;
+    text-align: center;
+    width: 100%;
+  }
+  .FlipCard .sm{
+    margin: 20px 0;
+  }
+  .FlipCard .sm a{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: #2c3e50;
+    font-size: 18px;
+    transition: 0.4s;
+    border-radius: 50%
+  }
+  .FlipCard .sm a:hover{
+    background: #2c3e50;
+    color: white;
+  }
+  .FlipCard .card:hover > .front{
+    transform: perspective(600px) rotateY(-180deg);
+  }
+  .FlipCard .card:hover > .back{
+    transform: perspective(600px) rotateY(0deg);
+  } 
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output35"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Typing Text #2</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-36">
+        <textarea id="textareaHTML36" placeholder="HTML goes here..." onkeyup="compileHTML36(this)" style="width: 50vw; height: 200px;">
+<div class="AutoTypin">
+    <h1>CSS EFFECTUS PROJECT!</h1>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS36" placeholder="CSS goes here..." onkeyup="compileCSS36(this)" style="width: 50vw; height: 200px;">
+@keyframes Autotyping { from { width: 0; } }
+@keyframes Autotypingblink-caret { 50% { border-color: transparent; } }
+.AutoTypin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    background-color:#333;
+}
+.AutoTypin h1 { 
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid yellow;
+    color:yellow;
+	width: 16.5em; 
+	width: 21ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: Autotyping 7s steps(21, end),Autotypingblink-caret .5s step-end infinite alternate;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output36"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-37">
+        <textarea id="textareaHTML37" placeholder="HTML goes here..." onkeyup="compileHTML37(this)" style="width: 50vw; height: 200px;">
+<div class="GradientBackground">
+    <h1 class="fw-light text-white m-0">Pure CSS Gradient Background Animation</h1>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS37" placeholder="CSS goes here..." onkeyup="compileCSS37(this)" style="width: 50vw; height: 200px;">
+.GradientBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: azure;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: GradientBackgroundgradient 15s ease infinite;
+    font-weight: bolder;
+}
+
+@keyframes GradientBackgroundgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output37"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Hover Circle Card</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-38">
+        <textarea id="textareaHTML38" placeholder="HTML goes here..." onkeyup="compileHTML38(this)" style="width: 50vw; height: 200px;">
+<div class="ImageHoverCircle">
+    <div class="container">
+        <div
+             class="container__image">
+          <div class="container__info container__author">Photo by <a class="link" href="https://instagram.com/silvia.diaconescu" target="_blank">Silvia Diaconescu</a></div>
+          <div class="container__info container__location">Geneva Lake Switzerland </div>
+      
+        </div>
+      </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS38" placeholder="CSS goes here..." onkeyup="compileCSS38(this)" style="width: 50vw; height: 200px;">
+.ImageHoverCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #f4f6f8;
+}
+
+.ImageHoverCircle .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.ImageHoverCircle .container__image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("https://silviadiaconescu.com/work/landscape/pb-2.jpg");
+  background-size: cover;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+}
+.ImageHoverCircle .container__image:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: inherit;
+  background-position: bottom;
+  filter: blur(40px) saturate(0%);
+  transform: scaleX(0.4);
+  transition: ease-in-out 0.4s;
+  border-radius: 120px;
+  transform-origin: right;
+  opacity: 0;
+  z-index: -1;
+}
+.ImageHoverCircle .container__image .container__info {
+  position: relative;
+  line-height: 1.8;
+  transition: ease-in-out 0.3s;
+  opacity: 0;
+}
+.ImageHoverCircle .container__image .container__location {
+  transition-delay: 0.15s;
+}
+.container__image:hover {
+  border-radius: 0;
+  width: 450px;
+  height: 310px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14);
+}
+.ImageHoverCircle .container__image:hover:before {
+  width: 100%;
+  opacity: 0.18;
+  filter: blur(10px) saturate(100%);
+  transform: scale(2.8) translate3d(-18%, 0px, 0px);
+}
+.ImageHoverCircle .container__image:hover .container__info {
+  transform: translate3d(-60%, 0px, 0px);
+  opacity: 1;
+}
+
+.ImageHoverCircle .link {
+  border-bottom: 1px solid transparent;
+  color: #06c0a8;
+  text-decoration: none;
+  transition: ease-in 0.13s;
+}
+.ImageHoverCircle .link:hover {
+  background-color: #06c0a8;
+  color: #ffffff;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output38"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Carnival Light Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-39">
+        <textarea id="textareaHTML39" placeholder="HTML goes here..." onkeyup="compileHTML39(this)" style="width: 50vw; height: 200px;">
+<div class="MelaLight">
+    <div class="box">
+        <span style="--i:0;"><i></i></span>
+        <span style="--i:1;"><i></i></span>
+        <span style="--i:2;"><i></i></span>
+        <span style="--i:3;"><i></i></span>
+        <span style="--i:4;"><i></i></span>
+        <span style="--i:5;"><i></i></span>
+        <span style="--i:6;"><i></i></span>
+        <span style="--i:7;"><i></i></span>
+        <span style="--i:8;"><i></i></span>
+        <span style="--i:9;"><i></i></span>
+        <span style="--i:10;"><i></i></span>
+        <span style="--i:11;"><i></i></span>
+        <span style="--i:12;"><i></i></span>
+        <span style="--i:13;"><i></i></span>
+        <span style="--i:14;"><i></i></span>
+        <span style="--i:15;"><i></i></span>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS39" placeholder="CSS goes here..." onkeyup="compileCSS39(this)" style="width: 50vw; height: 200px;">
+.MelaLight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: black;
+  }
+  
+  .MelaLight  .box {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .MelaLight .box span {
+    position: absolute;
+    width: 10px;
+    height: 250px;
+    background: transparent;
+    border-bottom: 40px solid transparent;
+    transform-origin: bottom;
+    transform: rotate(calc(22.5deg * var(--i)));
+  }
+  
+  .MelaLight  .box span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background: #03a9f4;
+    box-shadow: 0 0 20px #03a9f4;
+    border-radius: 100px;
+    animation: MelaLightanimate 1.5s linear infinite;
+    /* animation-delay: calc(0.1s * var(--i)); */
+  }
+  
+  @keyframes MelaLightanimate {
+    0% {
+      transform: translateY(160px) rotate(0deg);
+      filter: hue-rotate(0deg);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(160px) rotate(360deg);
+      filter: hue-rotate(360deg);
+    }
+  }
+  
+  .MelaLight  .box span::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 10px;
+    background: #03a9f4;
+    transform-origin: bottom;
+    transform: rotate(7deg);
+    animation: MelaLightanimateColor 1.5s linear infinite;
+  }
+  
+  @keyframes MelaLightanimateColor {
+    0% {
+      filter: hue-rotate(0deg);
+    }
+    100% {
+      filter: hue-rotate(360deg);
+    }
+  }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output39"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Newton Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-40">
+        <textarea id="textareaHTML40" placeholder="HTML goes here..." onkeyup="compileHTML40(this)" style="width: 50vw; height: 200px;">
+<div class="NewtonCradle">
+    <div class="pendulum">
+        <div class="pendulum_box">
+          <div class="ball first"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball"></div>
+            <div class="ball last"></div>
+        </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS40" placeholder="CSS goes here..." onkeyup="compileCSS40(this)" style="width: 50vw; height: 200px;">
+.NewtonCradle{
+    background-color: #98cfb2;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .NewtonCradle .pendulum{
+    position:absolute; 
+    width: 220px;
+    height: 180px;
+    background-color: #f8c6cf;
+    top:50%;
+    left:  50%;
+    border-radius: 5%;
+    align-items: center;
+    border-top: 15px solid #eee7d5;
+    transform: translate(-50%, -50%);
+    }
+    .NewtonCradle .pendulum_box{
+    display: flex;
+    padding: 120px 0 0 10px;
+    position: absolute;
+    flex: 1;
+  }
+  .NewtonCradle .ball{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #455681;
+    position: relative;
+    transform-origin: 50% -300%;
+    
+  }
+  .NewtonCradle .ball::before{
+      content: '';
+      width: 2px;
+      height: 120px;
+      background-color: #fffeff;
+      left: 18px;
+      top: -120px;
+      position: absolute;
+    }
+  
+    .NewtonCradle .ball.first{
+    animation: NewtonCradlefirstball .9s alternate ease-in infinite;
+  }
+  
+  @keyframes NewtonCradlefirstball{
+    0%{
+      transform: rotate(35deg);
+    }
+    50%{
+      transform: rotate(0deg);
+    }
+  }
+  
+  .NewtonCradle .ball.last{
+    animation: NewtonCradlelastball .9s alternate ease-out infinite;
+  }
+  
+  @keyframes NewtonCradlelastball{
+    50%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(-35deg);
+    }
+  }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output40"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Circular Menu</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-41">
+        <textarea id="textareaHTML41" placeholder="HTML goes here..." onkeyup="compileHTML41(this)" style="width: 50vw; height: 200px;">
+<div class="CircularMenu">
+    <div class="container">
+        <div class='menu'>
+          <input class='toggle' id='menu' type='checkbox'>
+          <label class='style' for='menu'>
+              <i class="fa fa-bars" aria-hidden="true"></i>
+          </label>
+          <a class='tab' href='#'>
+              <p>I</p>
+          </a>
+          <a class='tab' href='#'>
+              <p>II</p>
+          </a>
+          <a class='tab' href='#'>
+              <p>III</p>
+          </a>
+          <a class='tab' href='#'>
+              <p>IV</p>
+          </a>
+          <a class='tab' href='#'>
+              <P>V</P>
+          </a>
+          <a class='tab' href='#'>
+              <P>VI</P>
+          </a>
+        </div><!-- menu -->
+    </div><!-- container -->
+</div>
+    </textarea> 
+        <textarea id="textareaCSS41" placeholder="CSS goes here..." onkeyup="compileCSS41(this)" style="width: 50vw; height: 200px;">
+.CircularMenu
+  {
+    position: relative;
+    height: 60vh;
+    display: flex;
+    background-color:#f1f1f1;
+    justify-content: center;
+    align-items: center;
+  }
+.CircularMenu a{
+    text-decoration: none;
+  }
+  
+.CircularMenu .menu {
+    position: relative;
+    left: 50%;
+    width: 0px;
+    transform: translate(-50%, 55%);
+  }
+  
+.CircularMenu .toggle {
+    display: none;
+  }
+  
+.CircularMenu .toggle + .style {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      cursor: pointer;
+      transform: translate(-50%, -50%) scale(1);
+      z-index: 5;
+      display: block;
+      max-width: 200px;
+      margin-bottom: 0;
+      background: #ff0000;
+      color: #fff;
+      font-size: 2.5em;
+      padding-top: 75px;
+      text-align: center;
+     -webkit-transition: all .8s;
+     -moz-transition: all .8s;
+     -o-transition: all .8s;
+     -ms-transition: all .8s;
+     transition: all .8s;
+  }
+  
+.CircularMenu .menu p{
+      max-width: 85px;
+      text-align: center;
+      margin: 0 auto;
+      line-height: 15px;
+      padding-top: 50px;
+      font-weight: 700;
+      font-size: 2em;
+  }
+  
+  .CircularMenu .toggle + .style:hover{
+      -webkit-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .7);
+      -moz-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .7);
+      -ms-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .7);
+      -o-box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .7);
+      box-shadow: 0px 1px 20px 0px rgba(0, 0, 0, .7);
+  }
+  
+  .CircularMenu .toggle:checked + .style {
+    transform: translate(-50%, -50%) scale(.5);
+  }
+  
+  .CircularMenu .menu input[type=checkbox] + label:before {
+      content: "";
+      position: absolute;
+  }
+  
+  .CircularMenu .toggle + .style:before, .toggle + .style:after {
+    content: "";
+    position: absolute;
+    margin: -3px;
+    border-radius: 5px;
+    transition: all 0.3s;
+  }
+  
+  .CircularMenu .toggle + .style:before {
+    width: 30px;
+    height: 0px;
+    left: 10px;
+    top: 25px;
+  }
+  
+  .CircularMenu .toggle + .style:after {
+    width: 0px;
+    height: 30px;
+    left: 25px;
+    top: 10px;
+  }
+  
+  .CircularMenu .toggle:checked + .style:before,.CircularMenu  .toggle:checked + .style:after {
+    transform: rotate(135deg);
+  }
+  
+  .CircularMenu .toggle ~ .tab {
+      position: absolute;
+      background: #ff0000;
+      color: #fff;
+      width: 120px;
+      height: 120px;
+      left: 0px;
+      top: 0px;
+      transform: translate(-50%, -50%) scale(0);
+      transition: all 0.3s;
+      opacity: 0;
+      border-radius: 50%;
+  }
+  
+  .CircularMenu .toggle:checked ~ .tab {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~ .tab:nth-of-type(1) {
+    top: -122px;
+    left: 0px;
+    transition-delay: 0s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~.tab:nth-of-type(2) {
+    top: -74px;
+    left: 120px;
+    transition-delay: 0.125s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~  .tab:nth-of-type(3) {
+    top: 56px;
+    left: 115px;
+    transition-delay: 0.25s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~ .tab:nth-of-type(4) {
+    top: 122px;
+    left: 0px;
+    transition-delay: 0.375s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~.tab:nth-of-type(5) {
+    top: 56px;
+    left: -115px;
+    transition-delay: 0.5s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~ .tab:nth-of-type(6) {
+    top: -74px;
+    left: -120px;
+    transition-delay: 0.625s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~ .tab:nth-of-type(7) {
+    top: 0px;
+    left: -133.33333px;
+    transition-delay: 0.75s;
+  }
+  
+  .CircularMenu .menu > .toggle:checked ~ .tab:nth-of-type(8) {
+    top: -94.2809px;
+    left: -94.2809px;
+    transition-delay: 0.875s;
+  }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output41"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Broken Ring Loader</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-42">
+        <textarea id="textareaHTML42" placeholder="HTML goes here..." onkeyup="compileHTML42(this)" style="width: 50vw; height: 200px;">
+<div class="Broken-Ring">
+    <div class="container">
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <div class="ring"></div>
+    <p>Loading...</p>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS42" placeholder="CSS goes here..." onkeyup="compileCSS42(this)" style="width: 50vw; height: 200px;">
+.Broken-Ring{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #111;
+}
+.Broken-Ring .container
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Broken-Ring .container .ring
+{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: -30px;
+    border-radius:  50%; 
+    border: 4px solid transparent;
+    border-top: 4px solid #24ecff ;
+    animation: Broken-Ringanimate 4s linear infinite;
+}
+@keyframes Broken-Ringanimate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.Broken-Ring .container .ring::before{
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #24ecff;
+    box-shadow: 0 0 0 5px #24ecff33,
+    0 0 0 10px #e4ecff22,
+    0 0 0 20px #24ecff11,
+    0 0 20px #24ecff,
+    0 0 50px #24ecff;
+}
+.Broken-Ring .container .ring:nth-child(2){
+    animation: Broken-Ringanimate2 4s linear infinite;
+    animation-delay: -1s;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #93ff2d;
+}
+.Broken-Ring .container .ring:nth-child(2)::before{
+    content: '';
+    position: absolute;
+    top:initial;
+    bottom: 12px;
+    left: 12px;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #93ff2d;
+    box-shadow: 0 0 0 5px #93ff2d33,
+    0 0 0 10px #93ff2d22,
+    0 0 0 20px #93ff2d11,
+    0 0 20px #93ff2d,
+    0 0 50px #93ff2d;
+}
+@keyframes Broken-Ringanimate2 {
+    0%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+.Broken-Ring .container .ring:nth-child(3)
+{
+    animation: Broken-Ringanimate2 4s linear infinite;
+    animation-delay: -3s;
+    position: absolute;
+    top: -66.66px;
+    border-top: 4px solid transparent;
+    border-left: 4px solid #e41cf8;
+    
+}
+.Broken-Ring .container .ring:nth-child(3)::before{
+    content: '';
+    position: absolute;
+    top:initial;
+    bottom: 12px;
+    left: 12px;
+    top: 12px;
+    right: 12px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: #e41cf8;
+    box-shadow: 0 0 0 5px #e41cf833,
+    0 0 0 10px #e41cf822,
+    0 0 0 20px #e41cf811,
+    0 0 20px #e41cf8,
+    0 0 50px #e41cf8;
+}
+
+.Broken-Ring .container p
+{
+    position: absolute;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: consolas;
+    bottom: -80px;
+    letter-spacing: 0.2em;
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output42"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Focus On Text</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-43">
+        <textarea id="textareaHTML43" placeholder="HTML goes here..." onkeyup="compileHTML43(this)" style="width: 50vw; height: 200px;">
+<div class="FocusItem">
+    <h2>
+      <span><i></i>F</span>
+      <span><i></i>O</span>
+      <span><i></i>C</span>
+      <span><i></i>U</span>
+      <span><i></i>S</span>
+    </h2>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS43" placeholder="CSS goes here..." onkeyup="compileCSS43(this)" style="width: 50vw; height: 200px;">
+.FocusItem
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(45deg,#ff0057,#2196f3);
+}
+.FocusItem h2
+{
+  position: relative;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
+.FocusItem h2 span
+{
+  position: relative;
+  filter: blur(5px);
+  padding: 0 5px;
+  transition: 0.5s;
+}
+
+.FocusItem h2 span:hover
+{
+  filter: blur(0px);
+  transition: 0s;
+}
+
+.FocusItem h2 span i
+{
+  position: absolute;
+  inset: 0;
+  background:transparent;
+}
+.FocusItem h2 span:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 0 53px #fff,
+    36px 53px #fff,
+    36px 0 #fff;
+
+}
+.FocusItem h2 span:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 60px #fff,
+    30px 60px #fff,
+    30px 0 #fff;
+
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output43"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Climbing Text</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-44">
+        <textarea id="textareaHTML44" placeholder="HTML goes here..." onkeyup="compileHTML44(this)" style="width: 50vw; height: 200px;">
+<div class="ClimbingCube">
+    <div class="container">
+        <div class="box">
+            <div class="cube"></div>
+        </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS44" placeholder="CSS goes here..." onkeyup="compileCSS44(this)" style="width: 50vw; height: 200px;">
+.ClimbingCube
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: #000;
+  overflow: hidden;
+}
+.ClimbingCube .container{
+    position: relative; 
+    width: 100%;
+    transform: rotate(-35deg);
+}
+.ClimbingCube .container .box{
+    position: relative;
+    left: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( 100% + 400px);
+    -webkit-box-reflect:below 1px linear-gradient(transparent , #0004);
+    animation: ClimbingCubeanimates 1.5s ease-in-out infinite;
+}
+@keyframes ClimbingCubeanimates {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.ClimbingCube .container .box .cube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #03e9f4;
+    box-shadow: 0 0 5px rgb(3,233,244,1),
+    0 0 25px rgb(3,233,244,1),
+    0 0 50px rgb(3,233,244,1),
+    0 0 100px rgb(3,233,244,0.5),
+    0 0 200px rgb(3,233,244,0.5);
+    transform-origin: bottom right;
+    animation: ClimbingCubeanimate 1.5s ease-in-out infinite;
+}
+@keyframes ClimbingCubeanimate {
+    0%{
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(90deg);
+    }
+    65%{
+        transform: rotate(85deg);
+    }
+    70%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(87.5deg);
+    }
+    80% , 100%{
+        transform: rotate(90deg);
+    }
+}
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output44"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Power Button</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-45">
+        <textarea id="textareaHTML45" placeholder="HTML goes here..." onkeyup="compileHTML45(this)" style="width: 50vw; height: 200px;">
+<div class="PowerSwitch">
+    <div class="power-switch">
+        <input type="checkbox" />
+        <div class="button">
+          <svg class="power-off">
+            <use xlink:href="#line" class="line" />
+            <use xlink:href="#circle" class="circle" />
+          </svg>
+          <svg class="power-on">
+            <use xlink:href="#line" class="line" />
+            <use xlink:href="#circle" class="circle" />
+          </svg>
+        </div>
+      </div>
+      
+      <!-- SVG -->
+      <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="line">
+          <line x1="75" y1="34" x2="75" y2="58"/>
+        </symbol>
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150" id="circle">
+          <circle cx="75" cy="80" r="35"/>
+        </symbol>
+      </svg>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS45" placeholder="CSS goes here..." onkeyup="compileCSS45(this)" style="width: 50vw; height: 200px;">
+.power-switch {
+    --color-invert: #ffffff;
+    --width: 150px;
+    --height: 150px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: var(--width);
+    height: var(--height);
+  }
+  .power-switch .button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .power-switch .button:after {
+    content: "";
+    width: 1000%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(circle closest-side, var(--color-invert), transparent);
+    filter: blur(20px);
+    opacity: 0;
+    transition: opacity 1s ease, transform 1s ease;
+    transform: perspective(1px) translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+  }
+  .power-switch .button .power-on,
+  .power-switch .button .power-off {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    fill: none;
+    stroke: var(--color-invert);
+    stroke-width: 8px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+  .power-switch .button .power-on .line,
+  .power-switch .button .power-off .line {
+    opacity: 0.2;
+  }
+  .power-switch .button .power-on .circle,
+  .power-switch .button .power-off .circle {
+    opacity: 0.2;
+    transform: rotate(-58deg);
+    transform-origin: center 80px;
+    stroke-dasharray: 220;
+    stroke-dashoffset: 40;
+  }
+  .power-switch .button .power-on {
+    filter: drop-shadow(0px 0px 6px rgba(255, 255, 255, 0.8));
+  }
+  .power-switch .button .power-on .line {
+    opacity: 0;
+    transition: opacity 0.3s ease 1s;
+  }
+  .power-switch .button .power-on .circle {
+    opacity: 1;
+    stroke-dashoffset: 220;
+    transition: transform 0s ease, stroke-dashoffset 1s ease 0s;
+  }
+  .power-switch input {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    cursor: pointer;
+    opacity: 0;
+  }
+  .power-switch input:checked + .button:after {
+    opacity: 0.15;
+    transform: scale(2) perspective(1px) translateZ(0);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .power-switch input:checked + .button .power-on,
+  .power-switch input:checked + .button .power-off {
+    -webkit-animation: PowerSwitchclick-animation 0.3s ease forwards;
+            animation: PowerSwitchclick-animation 0.3s ease forwards;
+    transform: scale(1);
+  }
+  .power-switch input:checked + .button .power-on .line,
+  .power-switch input:checked + .button .power-off .line {
+    -webkit-animation: PowerSwitchline-animation 0.8s ease-in forwards;
+            animation: PowerSwitchline-animation 0.8s ease-in forwards;
+  }
+  .PowerSwitch .power-switch input:checked + .button .power-on .circle,
+  .PowerSwitch .power-switch input:checked + .button .power-off .circle {
+    transform: rotate(302deg);
+  }
+  .PowerSwitch .power-switch input:checked + .button .power-on .line {
+    opacity: 1;
+    transition: opacity 0.05s ease-in 0.55s;
+  }
+  .PowerSwitch .power-switch input:checked + .button .power-on .circle {
+    transform: rotate(302deg);
+    stroke-dashoffset: 40;
+    transition: transform 0.4s ease 0.2s, stroke-dashoffset 0.4s ease 0.2s;
+  }
+  
+  @-webkit-keyframes PowerSwitchline-animation {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(10px);
+    }
+    40% {
+      transform: translateY(-25px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+    85% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+  @keyframes PowerSwitchline-animation {
+    0% {
+      transform: translateY(0);
+    }
+    10% {
+      transform: translateY(10px);
+    }
+    40% {
+      transform: translateY(-25px);
+    }
+    60% {
+      transform: translateY(-25px);
+    }
+    85% {
+      transform: translateY(10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  @-webkit-keyframes PowerSwitchclick-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  @keyframes PowerSwitchclick-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(0.9);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  .PowerSwitch{
+    background: #1B1A23;
+    height: 50vh;
+    font: 400 16px "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .PowerSwitch .socials {
+    position: fixed;
+    display: block;
+    left: 20px;
+    bottom: 20px;
+  }
+  .PowerSwitch .socials > a {
+    display: block;
+    width: 30px;
+    opacity: 0.2;
+    transform: scale(var(--scale, 0.8));
+    transition: transform 0.3s cubic-bezier(0.38, -0.12, 0.24, 1.91);
+  }
+  .PowerSwitch .socials > a:hover {
+    --scale: 1;
+  }
+        </textarea>
+        <!-- <button id="RunElement1">Tweet</button> -->
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output45"></div>
+    <br/>

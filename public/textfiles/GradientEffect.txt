@@ -1,0 +1,566 @@
+<style id="styling1"></style>
+    <style id="styling2"></style>
+    <style id="styling3"></style>
+    <style id="styling4"></style>
+    <style id="styling5"></style>
+    <style id="styling6"></style>
+    <style id="styling7"></style>
+    <style id="styling8"></style>
+    <style id="styling9"></style>
+    <style id="styling10"></style>
+    <style id="styling11"></style>
+    <style id="styling12"></style>
+    <style id="styling13"></style>
+    <style id="styling14"></style>
+    <style id="styling15"></style>
+    <style id="styling16"></style>
+    <style id="styling17"></style>
+    <style id="styling18"></style>
+    <style id="styling19"></style>
+    <style id="styling20"></style>
+    <style id="styling21"></style>
+    <style id="styling22"></style>
+    <style id="styling23"></style>
+    <style id="styling24"></style>
+    <style id="styling25"></style>
+    <style id="styling26"></style>
+    <style id="styling27"></style>
+    <style id="styling28"></style>
+    <style id="styling29"></style>
+    <style id="styling30"></style>
+    <style id="styling31"></style>
+    <style id="styling32"></style>
+    <style id="styling33"></style>
+    <style id="styling34"></style>
+    <style id="styling35"></style>
+    <style id="styling36"></style>
+    <style id="styling37"></style>
+    <style id="styling38"></style>
+    <style id="styling39"></style>
+    <style id="styling40"></style>
+    <style id="styling41"></style>
+    <style id="styling42"></style>
+    <style id="styling43"></style>
+    <style id="styling44"></style>
+    <style id="styling45"></style>
+    <style id="styling46"></style>
+    <style id="styling47"></style>
+    <style id="styling48"></style>
+    <style id="styling49"></style>
+    <style id="styling50"></style>
+    <h1 class="Main-Body-h1">Shining Logo</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-10">
+        <textarea id="textareaHTML10" placeholder="HTML goes here..." onkeyup="compileHTML10(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="AppleLogoBox">
+                <div class="AppleLogo">
+                    <i class="fa-brands fa-apple applelogo"></i>
+                </div>
+            </div>
+            <script src="https://kit.fontawesome.com/978ee8aedf.js" crossorigin="anonymous"></script>
+        </textarea>
+        <textarea id="textareaCSS10" placeholder="CSS goes here..." onkeyup="compileCSS10(this)"
+            style="width: 50vw; height: 200px;">
+            .AppleLogoBox
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+}
+.applelogo
+{
+    position: relative;
+    color: #0f0;
+    font-size: 5em;
+    text-shadow: 0 0 50px #0f0, 0 0 100px #0f0, 0 0 150px #0f0, 0 0 200px #0f0, 0 0 250px #0f0;
+    animation: animateapplelogo 5s linear infinite;
+}
+@keyframes animateapplelogo {
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output10"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Hover Button</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-11">
+        <textarea id="textareaHTML11" placeholder="HTML goes here..." onkeyup="compileHTML11(this)" style="width: 50vw; height: 200px;">
+            <div class="GlowingGradientButtonBox">
+                <a href="#" >button</a>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS11" placeholder="CSS goes here..." onkeyup="compileCSS11(this)" style="width: 50vw; height: 200px;">
+            .GlowingGradientButtonBox
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.GlowingGradientButtonBox a{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.GlowingGradientButtonBox a:hover
+{
+    animation: animateGlowingGradientButton 8s linear infinite;
+    z-index: 1;
+}
+@keyframes animateGlowingGradientButton
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+.GlowingGradientButtonBox a:before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    transition: 0.5s;
+}
+.GlowingGradientButtonBox a:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animateGlowingGradientButton 8s linear infinite;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output11"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Login Form</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-14">
+        <textarea id="textareaHTML14" placeholder="HTML goes here..." onkeyup="compileHTML14(this)" style="width: 50vw; height: 200px;">
+           <div class="Glassform-body">
+        <section>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="box">
+                <div class="square" style="--i:0;"></div>
+                <div class="square" style="--i:1;"></div>
+                <div class="square" style="--i:2;"></div>
+                <div class="square" style="--i:3;"></div>
+                <div class="square" style="--i:4;"></div>
+                <div class="container">
+                    <div class="form">
+                        <h2>Login Form</h2>
+                        <form action="#">
+                            <div class="inputbox">
+                                <input type="text" placeholder="Username" name="" id="">
+                            </div>
+                            <div class="inputbox">
+                                <input type="password" placeholder="Password" name="" id="">
+                            </div>
+                            <div class="inputbox">
+                                <input type="submit" value="Login" name="Login" id="">
+                            </div>
+                            <p class="forget">Forget Password ?<a href="#">Click Here</a></p>
+                            <p class="forget">Don't have an account ? ?<a href="#">Sign up</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS14" placeholder="CSS goes here..." onkeyup="compileCSS14(this)" style="width: 50vw; height: 200px;">
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Glassform-body{
+    overflow: hidden;
+}
+
+.Glassform-body section {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: linear-gradient(to bottom, #f1f4f9, #dff1ff);
+}
+
+.Glassform-body section .color {
+    position: absolute;
+    filter: blur(150px);
+    overflow: hidden;
+}
+
+.Glassform-body section .color:nth-child(1) {
+    top: -350px;
+    width: 600px;
+    height: 600px;
+    background-color: #ff359b;
+}
+
+.Glassform-body section .color:nth-child(2) {
+    bottom: 50px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #fffd87;
+}
+
+.Glassform-body section .color:nth-child(3) {
+    bottom: 50px;
+    right: 100px;
+    width: 200px;
+    height: 200px;
+    background-color: #00d2ff;
+}
+
+.Glassform-body .box {
+    position: relative;
+}
+
+.Glassform-body .box .square {
+    position: absolute;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.1) */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+
+    animation: animateGlassForm 10s linear infinite;
+    animation-delay: calc(-1s*var(--i));
+}
+
+@keyframes animateGlassForm {
+
+    0%,
+    100% {
+        transform: translateY(-40px);
+    }
+
+    50% {
+        transform: translateY(40px);
+    }
+}
+
+.Glassform-body .box .square:nth-child(1) {
+    top: -50px;
+    right: -60px;
+    width: 100px;
+    height: 100px;
+}
+
+.Glassform-body .box .square:nth-child(2) {
+    top: 150px;
+    left: -100px;
+    width: 120px;
+    height: 120px;
+    z-index: 1;
+
+}
+
+.Glassform-body .box .square:nth-child(3) {
+    bottom: 50px;
+    right: -60px;
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+
+}
+
+.Glassform-body .box .square:nth-child(4) {
+    bottom: -80px;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+
+}
+
+.Glassform-body .box .square:nth-child(5) {
+    top: -80px;
+    left: 140px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.Glassform-body .container {
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 4px 4px rgba(0, 0, 0, 0.1) */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.Glassform-body .form {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+
+}
+
+.Glassform-body .form h2 {
+    position: relative;
+    color: white;
+    font-size: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+
+.Glassform-body .form h2::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: white;
+}
+
+.Glassform-body .form .inputbox {
+    width: 100%;
+    margin-top: 20px;
+
+}
+
+.Glassform-body .form .inputbox input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.Glassform-body .form .inputbox input::placeholder {
+    color: white;
+}
+
+.Glassform-body .form .inputbox input[type="submit"] {
+    background: white;
+    color: #666;
+    max-width: 100px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-weight: 600;
+
+}
+
+.Glassform-body .forget {
+    margin-top: 5px;
+    color: white;
+
+}
+
+.Glassform-body .forget a {
+    color: white;
+    font-weight: 600;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output14"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Background</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-37">
+        <textarea id="textareaHTML37" placeholder="HTML goes here..." onkeyup="compileHTML37(this)" style="width: 50vw; height: 200px;">
+<div class="GradientBackground">
+    <h1 class="fw-light text-white m-0">Pure CSS Gradient Background Animation</h1>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS37" placeholder="CSS goes here..." onkeyup="compileCSS37(this)" style="width: 50vw; height: 200px;">
+.GradientBackground{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    color: azure;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: GradientBackgroundgradient 15s ease infinite;
+    font-weight: bolder;
+}
+
+@keyframes GradientBackgroundgradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output37"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Focus On Text</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-43">
+        <textarea id="textareaHTML43" placeholder="HTML goes here..." onkeyup="compileHTML43(this)" style="width: 50vw; height: 200px;">
+<div class="FocusItem">
+    <h2>
+      <span><i></i>F</span>
+      <span><i></i>O</span>
+      <span><i></i>C</span>
+      <span><i></i>U</span>
+      <span><i></i>S</span>
+    </h2>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS43" placeholder="CSS goes here..." onkeyup="compileCSS43(this)" style="width: 50vw; height: 200px;">
+.FocusItem
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(45deg,#ff0057,#2196f3);
+}
+.FocusItem h2
+{
+  position: relative;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
+.FocusItem h2 span
+{
+  position: relative;
+  filter: blur(5px);
+  padding: 0 5px;
+  transition: 0.5s;
+}
+
+.FocusItem h2 span:hover
+{
+  filter: blur(0px);
+  transition: 0s;
+}
+
+.FocusItem h2 span i
+{
+  position: absolute;
+  inset: 0;
+  background:transparent;
+}
+.FocusItem h2 span:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 0 53px #fff,
+    36px 53px #fff,
+    36px 0 #fff;
+
+}
+.FocusItem h2 span:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 60px #fff,
+    30px 60px #fff,
+    30px 0 #fff;
+
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output43"></div>
+    <br/>

@@ -1,0 +1,685 @@
+ <style id="styling1"></style>
+    <style id="styling2"></style>
+    <style id="styling3"></style>
+    <style id="styling4"></style>
+    <style id="styling5"></style>
+    <style id="styling6"></style>
+    <style id="styling7"></style>
+    <style id="styling8"></style>
+    <style id="styling9"></style>
+    <style id="styling10"></style>
+    <style id="styling11"></style>
+    <style id="styling12"></style>
+    <style id="styling13"></style>
+    <style id="styling14"></style>
+    <style id="styling15"></style>
+    <style id="styling16"></style>
+    <style id="styling17"></style>
+    <style id="styling18"></style>
+    <style id="styling19"></style>
+    <style id="styling20"></style>
+    <style id="styling21"></style>
+    <style id="styling22"></style>
+    <style id="styling23"></style>
+    <style id="styling24"></style>
+    <style id="styling25"></style>
+    <style id="styling26"></style>
+    <style id="styling27"></style>
+    <style id="styling28"></style>
+    <style id="styling29"></style>
+    <style id="styling30"></style>
+    <style id="styling31"></style>
+    <style id="styling32"></style>
+    <style id="styling33"></style>
+    <style id="styling34"></style>
+    <style id="styling35"></style>
+    <style id="styling36"></style>
+    <style id="styling37"></style>
+    <style id="styling38"></style>
+    <style id="styling39"></style>
+    <style id="styling40"></style>
+    <style id="styling41"></style>
+    <style id="styling42"></style>
+    <style id="styling43"></style>
+    <style id="styling44"></style>
+    <style id="styling45"></style>
+    <style id="styling46"></style>
+    <style id="styling47"></style>
+    <style id="styling48"></style>
+    <style id="styling49"></style>
+    <style id="styling50"></style>
+    <h1 class="Main-Body-h1"> Shining Text Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-1">
+        <textarea id="textareaHTML1" placeholder="HTML goes here..." onkeyup="compileHTML1(this)" style="width: 50vw; height: 200px;">
+        <div class="flex-container">
+            <div class="flex-center">
+                <p>Moning Light Animation Effect</p>
+            </div>
+        </div>
+        </textarea>
+        <textarea id="textareaCSS1" placeholder="CSS goes here..." onkeyup="compileCSS1(this)" style="width: 50vw; height: 200px;">
+            .flex-container{
+                margin: 0;
+                padding: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 50vh;
+                background: #000
+            }
+            .flex-center{
+                text-transform: uppercase;
+                font-size: 2em;
+                letter-spacing: 4px;
+                overflow: hidden;
+                background: linear-gradient(90deg,#000,#fff,#000);
+                background-repeat: no-repeat;
+                animation: animate9 3s linear infinite;
+                background-size: 80%;
+                position: relative;
+                font-family: sans-serif;
+                color: #fff;
+            
+            }
+            @keyframes animate9{
+                0%{
+                    background-position: -500%;
+                }
+                100%{
+                    background-position: 500%;
+                }
+            }
+        </textarea>
+
+    </div>
+<h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output1"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Smoking Text Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-12">
+        <textarea id="textareaHTML12" placeholder="HTML goes here..." onkeyup="compileHTML12(this)" style="width: 50vw; height: 200px;">
+            <div class="Smoke-Text-Box">
+                <section>
+                    <video src="public/videos/smoke.mp4" autoplay muted></video>
+                    <h1>
+                        <span>D</span>
+                        <span>A</span>
+                        <span>K</span>
+                        <span>S</span>
+                        <span>H</span>
+                    </h1>
+                </section>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS12" placeholder="CSS goes here..." onkeyup="compileCSS12(this)" style="width: 50vw; height: 200px;">
+            .Smoke-Text-Box
+{
+    padding: 0;
+    margin: 0;
+    
+}
+.Smoke-Text-Box section{
+    background: black;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+.Smoke-Text-Box section video
+{
+    object-fit: cover;
+    margin-top: -20vh;
+}
+.Smoke-Text-Box h1{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    color: #ddd;
+    font-size: 5em;
+}
+.Smoke-Text-Box h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animateSmokeText 1s linear forwards;
+}
+@keyframes animateSmokeText
+{
+    0%
+    {
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}
+.Smoke-Text-Box h1 span:nth-child(1)
+{
+    animation-delay: 1.7s;
+}
+.Smoke-Text-Box h1 span:nth-child(2)
+{
+    animation-delay: 2s;
+}
+.Smoke-Text-Box h1 span:nth-child(3)
+{
+    animation-delay: 2.3s;
+}
+.Smoke-Text-Box h1 span:nth-child(4)
+{
+    animation-delay: 2.6s;
+}
+.Smoke-Text-Box h1 span:nth-child(5)
+{
+    animation-delay: 2.9s;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output12"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Particles Text Effect</h1>
+    
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-13">
+        <textarea id="textareaHTML13" placeholder="HTML goes here..." onkeyup="compileHTML13(this)" style="width: 50vw; height: 200px;">
+            <div class="Distortion-Text-Box">
+                <section>
+                    <video src="public/videos/particles.mp4" muted autoplay></video>
+                <h2><span>P</span>articles Di<span>st</span>ortion Effects</h2>
+                </section>    
+            </div>
+        </textarea>
+        <textarea id="textareaCSS13" placeholder="CSS goes here..." onkeyup="compileCSS13(this)" style="width: 50vw; height: 200px;">
+.Distortion-Text-Box 
+{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: black;
+}
+.Distortion-Text-Box section{
+    background: black;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Distortion-Text-Box h2{
+    position: relative;
+    font-size: 5em;
+    margin: 0;
+    font-weight: 900;
+    color:white;
+    z-index: 1;
+    overflow: hidden;
+}
+.Distortion-Text-Box h2:before
+{
+    content: '';
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 100%;
+    background: linear-gradient(90deg,transparent 0%,#000 5%,#000 100%);
+    animation: animateTextDistortion 5.5s linear forwards;
+    animation-delay: 2.3s;
+}
+@keyframes animateTextDistortion{
+    0%
+    {
+        left: 110%;
+    }
+    100%
+    {
+        left:-20%;
+    }
+    
+}
+.Distortion-Text-Box h2 span
+{
+    color: rgb(255, 62, 62);
+}
+.Distortion-Text-Box video
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+    pointer-events: none;
+    mix-blend-mode: screen;
+}
+        </textarea>
+
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output13"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Typing Text #1</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-16">
+        <textarea id="textareaHTML16" placeholder="HTML goes here..." onkeyup="compileHTML16(this)" style="width: 50vw; height: 200px;">
+            <div class="text-typing-loading">
+      <div class="text-typing-loading-effect">
+        <h2>Loading...</h2>
+    </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS16" placeholder="CSS goes here..." onkeyup="compileCSS16(this)" style="width: 50vw; height: 200px;">
+            .text-typing-loading
+{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #121213;
+}
+
+.text-typing-loading .text-typing-loading-effect
+{
+    position: relative;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+.text-typing-loading .text-typing-loading-effect::before
+{
+    content: '';
+    position:absolute;
+    top: -2;
+    right: 0;
+    width: 2px;
+    height: 50%;
+    background:#03e9f4;
+    animation: blinkcursor 0.8s steps(3) infinite;
+}
+@keyframes blinkcursor
+{
+    0%,75%
+    {
+        opacity:1;
+    }
+    76%,100%
+    {
+        opacity:0;
+    }
+}
+.text-typing-loading .text-typing-loading-effect h2
+{ 
+    font-family: consolas;
+    position: relative;
+    color:#03e9f4;
+    letter-spacing: 5px;
+    font-size :4em;
+    text-transform: uppercase;
+    animation: typing-loading 8s steps(10) infinite;
+    overflow: hidden;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0002);  
+}
+@keyframes typing-loading
+{
+    0%,90%,100%
+    {
+        width: 0;
+    }
+     30%,60%
+    {
+        width: 401.88px;
+
+    }
+}
+        </textarea>
+
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output16"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Glitching Text</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-21">
+        <textarea id="textareaHTML21" placeholder="HTML goes here..." onkeyup="compileHTML21(this)" style="width: 50vw; height: 200px;">
+          <div class="GlitchTextBody">
+        <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+        <div class="glitch" data-text="GLITCH">GLITCH</div> 
+    </div>
+        </textarea>
+        <textarea id="textareaCSS21" placeholder="CSS goes here..." onkeyup="compileCSS21(this)" style="width: 50vw; height: 200px;">
+         .GlitchTextBody {
+    background: black;
+    font-family: 'Varela', sans-serif;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .GlitchTextBody .glitch {
+    color: white;
+    font-size: 100px;
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  @keyframes noise-anim {
+    0% {
+      clip: rect(82px, 9999px, 6px, 0);
+    }
+    5% {
+      clip: rect(19px, 9999px, 36px, 0);
+    }
+    10% {
+      clip: rect(81px, 9999px, 99px, 0);
+    }
+    15% {
+      clip: rect(38px, 9999px, 98px, 0);
+    }
+    20% {
+      clip: rect(85px, 9999px, 4px, 0);
+    }
+    25% {
+      clip: rect(85px, 9999px, 17px, 0);
+    }
+    30% {
+      clip: rect(38px, 9999px, 19px, 0);
+    }
+    35% {
+      clip: rect(76px, 9999px, 35px, 0);
+    }
+    40% {
+      clip: rect(78px, 9999px, 13px, 0);
+    }
+    45% {
+      clip: rect(32px, 9999px, 39px, 0);
+    }
+    50% {
+      clip: rect(80px, 9999px, 17px, 0);
+    }
+    55% {
+      clip: rect(99px, 9999px, 5px, 0);
+    }
+    60% {
+      clip: rect(59px, 9999px, 20px, 0);
+    }
+    65% {
+      clip: rect(94px, 9999px, 48px, 0);
+    }
+    70% {
+      clip: rect(41px, 9999px, 79px, 0);
+    }
+    75% {
+      clip: rect(8px, 9999px, 89px, 0);
+    }
+    80% {
+      clip: rect(52px, 9999px, 47px, 0);
+    }
+    85% {
+      clip: rect(88px, 9999px, 85px, 0);
+    }
+    90% {
+      clip: rect(38px, 9999px, 73px, 0);
+    }
+    95% {
+      clip: rect(63px, 9999px, 13px, 0);
+    }
+    100% {
+      clip: rect(29px, 9999px, 10px, 0);
+    }
+  }
+  .GlitchTextBody .glitch:after {
+    content: attr(data-text);
+    position: absolute;
+    left: 2px;
+    text-shadow: -1px 0 red;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim 2s infinite linear alternate-reverse;
+  }
+  
+  @keyframes noise-anim-2 {
+    0% {
+      clip: rect(62px, 9999px, 58px, 0);
+    }
+    5% {
+      clip: rect(25px, 9999px, 29px, 0);
+    }
+    10% {
+      clip: rect(18px, 9999px, 79px, 0);
+    }
+    15% {
+      clip: rect(6px, 9999px, 79px, 0);
+    }
+    20% {
+      clip: rect(35px, 9999px, 98px, 0);
+    }
+    25% {
+      clip: rect(90px, 9999px, 89px, 0);
+    }
+    30% {
+      clip: rect(34px, 9999px, 26px, 0);
+    }
+    35% {
+      clip: rect(46px, 9999px, 44px, 0);
+    }
+    40% {
+      clip: rect(90px, 9999px, 28px, 0);
+    }
+    45% {
+      clip: rect(75px, 9999px, 90px, 0);
+    }
+    50% {
+      clip: rect(96px, 9999px, 35px, 0);
+    }
+    55% {
+      clip: rect(32px, 9999px, 4px, 0);
+    }
+    60% {
+      clip: rect(30px, 9999px, 80px, 0);
+    }
+    65% {
+      clip: rect(26px, 9999px, 25px, 0);
+    }
+    70% {
+      clip: rect(50px, 9999px, 27px, 0);
+    }
+    75% {
+      clip: rect(75px, 9999px, 95px, 0);
+    }
+    80% {
+      clip: rect(8px, 9999px, 1px, 0);
+    }
+    85% {
+      clip: rect(44px, 9999px, 73px, 0);
+    }
+    90% {
+      clip: rect(50px, 9999px, 82px, 0);
+    }
+    95% {
+      clip: rect(86px, 9999px, 78px, 0);
+    }
+    100% {
+      clip: rect(8px, 9999px, 1px, 0);
+    }
+  }
+  .GlitchTextBody .glitch:before {
+    content: attr(data-text);
+    position: absolute;
+    left: -2px;
+    text-shadow: 1px 0 blue;
+    top: 0;
+    color: white;
+    background: black;
+    overflow: hidden;
+    clip: rect(0, 900px, 0, 0);
+    animation: noise-anim-2 3s infinite linear alternate-reverse;
+  }
+  
+        </textarea>
+
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output21"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Typing Text #2</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-36">
+        <textarea id="textareaHTML36" placeholder="HTML goes here..." onkeyup="compileHTML36(this)" style="width: 50vw; height: 200px;">
+<div class="AutoTypin">
+    <h1>CSS EFFECTUS PROJECT!</h1>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS36" placeholder="CSS goes here..." onkeyup="compileCSS36(this)" style="width: 50vw; height: 200px;">
+@keyframes Autotyping { from { width: 0; } }
+@keyframes Autotypingblink-caret { 50% { border-color: transparent; } }
+.AutoTypin
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50vh;
+    background-color:#333;
+}
+.AutoTypin h1 { 
+	font: bold 300% Consolas, Monaco, monospace;
+	border-right: .1em solid yellow;
+    color:yellow;
+	width: 16.5em; 
+	width: 21ch;
+	margin: 2em 1em;
+	white-space: nowrap;
+	overflow: hidden;
+	animation: Autotyping 7s steps(21, end),Autotypingblink-caret .5s step-end infinite alternate;
+}
+        </textarea>
+
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output36"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Focus On Text</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-43">
+        <textarea id="textareaHTML43" placeholder="HTML goes here..." onkeyup="compileHTML43(this)" style="width: 50vw; height: 200px;">
+<div class="FocusItem">
+    <h2>
+      <span><i></i>F</span>
+      <span><i></i>O</span>
+      <span><i></i>C</span>
+      <span><i></i>U</span>
+      <span><i></i>S</span>
+    </h2>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS43" placeholder="CSS goes here..." onkeyup="compileCSS43(this)" style="width: 50vw; height: 200px;">
+.FocusItem
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: linear-gradient(45deg,#ff0057,#2196f3);
+}
+.FocusItem h2
+{
+  position: relative;
+  display: flex;
+  gap: 5px;
+  color: #fff;
+  font-size: 4em;
+  cursor: pointer;
+}
+.FocusItem h2 span
+{
+  position: relative;
+  filter: blur(5px);
+  padding: 0 5px;
+  transition: 0.5s;
+}
+
+.FocusItem h2 span:hover
+{
+  filter: blur(0px);
+  transition: 0s;
+}
+
+.FocusItem h2 span i
+{
+  position: absolute;
+  inset: 0;
+  background:transparent;
+}
+.FocusItem h2 span:hover i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 8px;
+    background: #fff;
+    box-shadow: 0 53px #fff,
+    36px 53px #fff,
+    36px 0 #fff;
+
+}
+.FocusItem h2 span:hover i::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 8px;
+    height: 2px;
+    background: #fff;
+    box-shadow: 0 60px #fff,
+    30px 60px #fff,
+    30px 0 #fff;
+
+}
+        </textarea>
+
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output43"></div>
+    <br/>

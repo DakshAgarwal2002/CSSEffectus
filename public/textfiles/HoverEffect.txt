@@ -1,0 +1,871 @@
+<style id="styling1"></style>
+    <style id="styling2"></style>
+    <style id="styling3"></style>
+    <style id="styling4"></style>
+    <style id="styling5"></style>
+    <style id="styling6"></style>
+    <style id="styling7"></style>
+    <style id="styling8"></style>
+    <style id="styling9"></style>
+    <style id="styling10"></style>
+    <style id="styling11"></style>
+    <style id="styling12"></style>
+    <style id="styling13"></style>
+    <style id="styling14"></style>
+    <style id="styling15"></style>
+    <style id="styling16"></style>
+    <style id="styling17"></style>
+    <style id="styling18"></style>
+    <style id="styling19"></style>
+    <style id="styling20"></style>
+    <style id="styling21"></style>
+    <style id="styling22"></style>
+    <style id="styling23"></style>
+    <style id="styling24"></style>
+    <style id="styling25"></style>
+    <style id="styling26"></style>
+    <style id="styling27"></style>
+    <style id="styling28"></style>
+    <style id="styling29"></style>
+    <style id="styling30"></style>
+    <style id="styling31"></style>
+    <style id="styling32"></style>
+    <style id="styling33"></style>
+    <style id="styling34"></style>
+    <style id="styling35"></style>
+    <style id="styling36"></style>
+    <style id="styling37"></style>
+    <style id="styling38"></style>
+    <style id="styling39"></style>
+    <style id="styling40"></style>
+    <style id="styling41"></style>
+    <style id="styling42"></style>
+    <style id="styling43"></style>
+    <style id="styling44"></style>
+    <style id="styling45"></style>
+    <style id="styling46"></style>
+    <style id="styling47"></style>
+    <style id="styling48"></style>
+    <style id="styling49"></style>
+    <style id="styling50"></style>
+    <h1 class="Main-Body-h1">I-Phone Hover Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-7">
+        <textarea id="textareaHTML7" placeholder="HTML goes here..." onkeyup="compileHTML7(this)"
+            style="width: 50vw; height: 200px;">
+            <div class="Iphone-container">
+                <div class="box">
+                    <img src="public/images/Iphone-image-removebg-preview.png">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen1">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen2">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen3">
+                    <img src="public/images/iphone-menu-removebg-preview.png" class="Screen Screen4">
+                </div>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS7" placeholder="CSS goes here..." onkeyup="compileCSS7(this)"
+            style="width: 50vw; height: 200px;">
+            .Iphone-container{
+                margin:0;
+                padding: 0;
+                height: 90vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+            }
+            .Iphone-container .box{
+                position: relative;
+                width: 620px;
+                height: 403px;
+            }
+            .Iphone-container .box .Screen
+            {
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition: 0.5s;
+            }
+            .Iphone-container .box:hover .Screen.Screen1
+            {
+                transform: translateX(70px) translateY(-50px);
+                opacity: .3;
+            }
+            .Iphone-container .box:hover .Screen.Screen2
+            {
+                transform: translateX(100px) translateY(-80px);
+                opacity: .5;
+            }
+            .Iphone-container .box:hover .Screen.Screen3
+            {
+                transform: translateX(130px) translateY(-110px);
+                opacity: .7;
+            }
+            .Iphone-container .box:hover .Screen.Screen4
+            {
+                transform: translateX(160px) translateY(-140px);
+                opacity: 1;
+            }
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output7"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Gradient Hover Button</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-11">
+        <textarea id="textareaHTML11" placeholder="HTML goes here..." onkeyup="compileHTML11(this)" style="width: 50vw; height: 200px;">
+            <div class="GlowingGradientButtonBox">
+                <a href="#" >button</a>
+            </div>
+        </textarea>
+        <textarea id="textareaCSS11" placeholder="CSS goes here..." onkeyup="compileCSS11(this)" style="width: 50vw; height: 200px;">
+            .GlowingGradientButtonBox
+{
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.GlowingGradientButtonBox a{
+    position: relative;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 30px;
+    font-weight: bold;
+    
+}
+.GlowingGradientButtonBox a:hover
+{
+    animation: animateGlowingGradientButton 8s linear infinite;
+    z-index: 1;
+}
+@keyframes animateGlowingGradientButton
+{
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+.GlowingGradientButtonBox a:before
+{
+    content: '';
+    position: absolute;
+    top:-5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    background: linear-gradient(90deg,#03a9f4,#f441a5,#ffeb3b,#03a9f4);
+    background-size: 400%;
+    border-radius: 40px;
+    filter: blur(20px);
+    transition: 0.5s;
+}
+.GlowingGradientButtonBox a:hover:before
+{
+    filter: blur(20px);
+    opacity: 1;
+    animation: animateGlowingGradientButton 8s linear infinite;
+}
+        </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output11"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Gradient Hover Cube Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-15">
+        <textarea id="textareaHTML15" placeholder="HTML goes here..." onkeyup="compileHTML15(this)" style="width: 50vw; height: 200px;">
+           <div class="cube-body">
+        <div class="container">
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+    
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+    
+            <div class="cube">
+                <div style="--x:-1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:0; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+                <div style="--x:1; --y:0;">
+                    <span style="--i:3;"></span>
+                    <span style="--i:2;"></span>
+                    <span style="--i:1;"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS15" placeholder="CSS goes here..." onkeyup="compileCSS15(this)" style="width: 50vw; height: 200px;">
+            
+.cube-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: #25335b;
+    position: relative;
+}
+
+.cube-body .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -80px;
+    transform: skewY(-20deg);
+    animation: animate-cube 5s linear infinite;
+}
+
+@keyframes animate-cube{
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.cube-body .container .cube{
+    position: relative;
+    z-index: 2;
+}
+
+.cube-body .container .cube:nth-child(2){
+    z-index: 1;
+    translate: -60px -60px;
+}
+
+.cube-body .container .cube:nth-child(3){
+    z-index: 3;
+    translate: 60px 60px;
+}
+
+.cube-body .container .cube div{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
+}
+
+.cube-body .container .cube div span{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: #dcdcdc;
+    z-index: calc(1 * var(--i));
+    transition: 1.5sec;
+}
+
+.cube-body .container .cube div span:hover{
+    transition: 0s;
+    background: #ef4149;
+    filter: drop-shadow(0 0 30px #ef4149);
+}
+
+.cube-body .container .cube div span::before{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #fff;
+    transform-origin: right;
+    transform: skewY(45deg);
+    transition: 1.5s;
+}
+
+.cube-body .container .cube div span:hover::before{ 
+    transition: 0s;
+    background: #f75d64;
+} 
+
+.cube-body .container .cube div span::after{
+    content: '';
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: #f2f2f2;
+    transform-origin: bottom;
+    transform: skewX(45deg);
+    transition: 1.5s;
+} 
+
+.cube-body .container .cube div span:hover::after{
+    transition: 0s;
+    background: #f14e55;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output15"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Hover Button</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-17">
+        <textarea id="textareaHTML17" placeholder="HTML goes here..." onkeyup="compileHTML17(this)" style="width: 50vw; height: 200px;">
+            <div class="Energy-Button-hover-box">
+      <div class="container">
+        <a href = "#"><span>Read More</span> </a>
+        <a href = "#"><span>Read More</span> </a>
+    </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS17" placeholder="CSS goes here..." onkeyup="compileCSS17(this)" style="width: 50vw; height: 200px;">
+           @import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+           .Energy-Button-hover-box
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background: #000;
+}
+.Energy-Button-hover-box .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.Energy-Button-hover-box .container a
+{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    border: 2px solid #0f0;
+    margin: 40px;
+    text-transform: uppercase;
+    font-weight:600;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: #fff;
+    -webkit-box-reflect: below 0px linear-gradient(transparent,#0002);
+    transition: 0.5s;
+    transition-delay: 0s;
+}
+.Energy-Button-hover-box .container a:hover
+{
+    transition-delay: 1s;
+    color: #000;
+    box-shadow: 0 0 10px #0f0,
+    0 0 20px #0f0,
+    0 0 40px #0f0,
+    0 0 80px #0f0,
+    0 0 160px #0f0;
+}
+.Energy-Button-hover-box .container a span
+{
+    position: relative;
+    z-index:100;
+    font-family: 'Poppins', sans-serif;
+}
+.Energy-Button-hover-box .container a:nth-child(2)
+{
+    filter: hue-rotate(80deg);
+}
+.Energy-Button-hover-box .container a::before
+{
+content: '';
+position:absolute;
+left: -20px;
+top:50%;
+transform:translateY(-50%);
+width: 20px;
+height: 2px;
+background: #0f0;
+box-shadow: 5px -8px 0 #0f0,
+           5px 8px 0 #0f0;
+transition: width 0.5s, left 0.5s, height 0.5s,box-shadow 0.5s;
+transition-delay: 1s,0.5s, 0s, 0s;
+}
+.Energy-Button-hover-box .container a:hover::before
+{
+    width: 60%;
+    height: 100%;
+    left:-2px;
+    box-shadow: 5px 0 0 #0f0,
+                5px 0 0 #0f0;
+    transition-delay: 0s,0.5s,1s, 1s;
+    
+}
+.Energy-Button-hover-box .container a::after
+{
+content: '';
+position:absolute;
+right: -20px;
+top:50%;
+transform:translateY(-50%);
+width: 20px;
+height: 2px;
+background: #0f0;
+box-shadow: -5px -8px 0 #0f0,
+           -5px 8px 0 #0f0;
+transition: width 0.5s, left 0.5s, height 0.5s,box-shadow 0.5s;
+transition-delay: 1s,0.5s, 0s, 0s;
+}
+.Energy-Button-hover-box .container a:hover::after
+{
+    width: 60%;
+    height: 100%;
+    right:-2px;
+    box-shadow: -5px 0 0 #0f0,
+                -5px 0 0 #0f0;
+    transition-delay: 0s,0.5s, 1s, 1s;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output17"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Disco Hover Background</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-23">
+        <textarea id="textareaHTML23" placeholder="HTML goes here..." onkeyup="compileHTML23(this)" style="width: 50vw; height: 200px;">
+          <div class="discoHoverDiv">
+        <section>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </section>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS23" placeholder="CSS goes here..." onkeyup="compileCSS23(this)" style="width: 50vw; height: 200px;">
+        
+.discoHoverDiv section
+{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #001300;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    animation: changeColor123 5s linear infinite;
+
+}
+@keyframes changeColor123
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+.discoHoverDiv span
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+
+}
+.discoHoverDiv span::before
+{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    transform: scale(0.1);
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 2s;
+}
+.discoHoverDiv span:hover::before
+{
+    transform: scale(1);
+    transition: 0s;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output23"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Folding Map Effect</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-25">
+        <textarea id="textareaHTML25" placeholder="HTML goes here..." onkeyup="compileHTML25(this)" style="width: 50vw; height: 200px;">
+          <div class="FoldingMap">
+        <div class="box">
+            <span style="--1:0;"></span>
+            <span style="--1:1;"></span>
+            <span style="--1:2;"></span>
+            <span style="--1:3;"></span>
+        </div>
+    </div>
+    </textarea> 
+        <textarea id="textareaCSS25" placeholder="CSS goes here..." onkeyup="compileCSS25(this)" style="width: 50vw; height: 200px;">     
+.FoldingMap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    background-color: #2f364f;
+}
+.FoldingMap .box{
+    width: 450px;
+    height: 200px;
+    transform: rotate(-25deg) skew(25deg);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.FoldingMap .box:hover{
+    transform: rotate(-25deg) skew(-25deg) translateY(-20px);
+}
+.FoldingMap .box span{
+    width: 25%;
+    height: 100%;
+    background:url(/public/images/GreenYellowBG.jpg);
+    background-size: cover;
+    background-position:calc(-160px * var(--i)) ;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+.FoldingMap .box:hover span:nth-child(odd){
+    transform: skewY(25deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+.FoldingMap .box:hover span:nth-child(even){
+    transform: skewY(-25deg);
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output25"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Zoom-In Hover Card Image</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-28">
+        <textarea id="textareaHTML28" placeholder="HTML goes here..." onkeyup="compileHTML28(this)" style="width: 50vw; height: 200px;">
+          <div class="ProfileCardHoverDiv">
+    <div class="container">
+        <div class="card card0">
+          <div class="border">
+            <h2>Al Pacino</h2>
+          </div>
+        </div>
+        <div class="card card1">
+          <div class="border">
+            <h2>Ben Stiller</h2>
+          </div>
+        </div>
+        <div class="card card2">
+          <div class="border">
+            <h2>Patrick Stewart</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    </textarea> 
+        <textarea id="textareaCSS28" placeholder="CSS goes here..." onkeyup="compileCSS28(this)" style="width: 50vw; height: 200px;">     
+.ProfileCardHoverDiv .container{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  background-color: aliceblue;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.ProfileCardHoverDiv .border{
+  height: 369px;
+  width: 290px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.ProfileCardHoverDiv .border:hover{
+border: 1px solid white;
+}
+.ProfileCardHoverDiv .card
+{
+  height: 379px;
+  width: 300px;
+  background: grey;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: black;
+  box-shadow: 0 70px 63px -60px #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.ProfileCardHoverDiv .card0
+{
+  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
+  background-size: 300px
+}
+.ProfileCardHoverDiv .card0:hover{
+background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
+background-size: 600px
+  }
+  .ProfileCardHoverDiv h2
+{opacity: 1}
+  
+
+.ProfileCardHoverDiv .fa
+{opacity: 1}
+.ProfileCardHoverDiv .card1
+{
+  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
+  background-size: 300px
+}
+
+.ProfileCardHoverDiv .card1:hover{
+background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+background-size: 600px
+  }
+
+.ProfileCardHoverDiv h2
+{opacity: 1}
+  
+.ProfileCardHoverDiv .fa
+{opacity: 1}
+.ProfileCardHoverDiv .card2{
+  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+  background-size: 300px;
+}
+
+.ProfileCardHoverDiv .card2:hover{
+background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+background-size: 600px
+}
+.ProfileCardHoverDiv h2{
+  opacity: 1
+}
+.ProfileCardHoverDiv .fa{
+  opacity: 1
+}
+.ProfileCardHoverDiv h2{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: white;
+  margin: 20px;
+  opacity: 1;
+  transition: opacity 1s
+}
+.ProfileCardHoverDiv .fa{
+  opacity: 1;
+  transition: opacity 1s;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output28"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Hover Circle Card</h1>
+<div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-38">
+        <textarea id="textareaHTML38" placeholder="HTML goes here..." onkeyup="compileHTML38(this)" style="width: 50vw; height: 200px;">
+<div class="ImageHoverCircle">
+    <div class="container">
+        <div
+             class="container__image">
+          <div class="container__info container__author">Photo by <a class="link" href="https://instagram.com/silvia.diaconescu" target="_blank">Silvia Diaconescu</a></div>
+          <div class="container__info container__location">Geneva Lake Switzerland </div>
+      
+        </div>
+      </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS38" placeholder="CSS goes here..." onkeyup="compileCSS38(this)" style="width: 50vw; height: 200px;">
+.ImageHoverCircle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: #f4f6f8;
+}
+
+.ImageHoverCircle .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.ImageHoverCircle .container__image {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url("https://silviadiaconescu.com/work/landscape/pb-2.jpg");
+  background-size: cover;
+  transition: ease-in-out 0.3s;
+  z-index: 2;
+}
+.ImageHoverCircle .container__image:before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  background: inherit;
+  background-position: bottom;
+  filter: blur(40px) saturate(0%);
+  transform: scaleX(0.4);
+  transition: ease-in-out 0.4s;
+  border-radius: 120px;
+  transform-origin: right;
+  opacity: 0;
+  z-index: -1;
+}
+.ImageHoverCircle .container__image .container__info {
+  position: relative;
+  line-height: 1.8;
+  transition: ease-in-out 0.3s;
+  opacity: 0;
+}
+.ImageHoverCircle .container__image .container__location {
+  transition-delay: 0.15s;
+}
+.container__image:hover {
+  border-radius: 0;
+  width: 450px;
+  height: 310px;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(9, 55, 53, 0.08), 0px 16px 24px rgba(9, 55, 53, 0.1), 0px 24px 32px rgba(9, 55, 53, 0.14);
+}
+.ImageHoverCircle .container__image:hover:before {
+  width: 100%;
+  opacity: 0.18;
+  filter: blur(10px) saturate(100%);
+  transform: scale(2.8) translate3d(-18%, 0px, 0px);
+}
+.ImageHoverCircle .container__image:hover .container__info {
+  transform: translate3d(-60%, 0px, 0px);
+  opacity: 1;
+}
+
+.ImageHoverCircle .link {
+  border-bottom: 1px solid transparent;
+  color: #06c0a8;
+  text-decoration: none;
+  transition: ease-in 0.13s;
+}
+.ImageHoverCircle .link:hover {
+  background-color: #06c0a8;
+  color: #ffffff;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output38"></div>
+    <br/>

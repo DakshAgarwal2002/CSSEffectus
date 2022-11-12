@@ -1,0 +1,145 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.element-1, .element-2, .element-3, .element-4,.element-5,.element-6,.element-7,.element-8,.element-9,.element-10,.element-11,.element-12,.element-13,.element-14,.element-15,.element-16
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.element-17,.element-18,.element-19,.element-20,.element-21,.element-22,.element-23,.element-24,.element-25,.element-26,.element-27,.element-28,.element-29,.element-30,.element-31,.element-32,.element-33,.element-34,.element-35,.element-36,.element-37,.element-38,.element-39
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+.element-40,.element-41,.element-42,.element-43,.element-44,.element-45,.element-46,.element-47,.element-48,.element-49,.element-50
+{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+#output1,#output2,#output3,#output4,#output5,#output6,#output7
+{
+    border-radius: 10px;
+
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #e1e1e1;
+}
+#output8,#output9,#output10,#output11,#output12,#output13,#output14,#output15,#output16,#output17,#output18,#output19,#output20,#output21,#output22,#output23,#output24,#output25,#output26,#output27,#output28,#output29,#output30,#output31,#output32,#output33,#output34,#output35,#output35,#output36,#output36,#output37,#output38,#output39,#output40,#output41,#output42,#output43,#output44,#output45,#output46,#output47,#output48,#output48,#output49,#output50
+{
+    border-radius: 10px;
+
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+    background-color: #e1e1e1;
+}
+body
+{
+    background-color: #333;
+}
+textarea
+{
+    border: 5px solid #e1e1e1;
+    border-radius: 5px;
+    background-color: #333;
+    color: yellow;
+}
+.main-body
+{
+    margin: 10px;
+    padding: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.vertical-scroll-bar
+{
+    height: 100vh;
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+    margin: 10px;
+    overflow: auto;
+}
+.vertical-scroll-bar a{
+    width: 100%;
+}
+.Effect_Categories
+{
+    padding: 10px 0;
+    background-color: #e1e1e1;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Effect_Categories button
+{
+    padding: 10px 5px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 5px;
+    background-color: #333;
+    color: yellow;
+}
+.navbar000
+{
+    background-color: blue !important;
+}
+.Effect_Categories button:hover
+{
+    font-size: 20px;
+    font-weight: 400;
+    text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+    background-color: yellow;
+    color: white;
+}
+.Main-Body-h1
+{
+    font-size: 42px;
+    padding-left: 4px;
+    font-weight: 700;
+    color: yellow;
+    text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+.html-css-wrap
+{
+    display: flex;
+    width: 100%;
+}
+.Main-Body-h2
+{
+    width: 50%;
+    color: yellow;
+    text-shadow:
+   -2px -2px 0 #000,  
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+     2px 2px 0 #000;
+}
+.middle-output
+{
+    width: 50%;
+}

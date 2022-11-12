@@ -1,0 +1,1018 @@
+<style id="styling1"></style>
+    <style id="styling2"></style>
+    <style id="styling3"></style>
+    <style id="styling4"></style>
+    <style id="styling5"></style>
+    <style id="styling6"></style>
+    <style id="styling7"></style>
+    <style id="styling8"></style>
+    <style id="styling9"></style>
+    <style id="styling10"></style>
+    <style id="styling11"></style>
+    <style id="styling12"></style>
+    <style id="styling13"></style>
+    <style id="styling14"></style>
+    <style id="styling15"></style>
+    <style id="styling16"></style>
+    <style id="styling17"></style>
+    <style id="styling18"></style>
+    <style id="styling19"></style>
+    <style id="styling20"></style>
+    <style id="styling21"></style>
+    <style id="styling22"></style>
+    <style id="styling23"></style>
+    <style id="styling24"></style>
+    <style id="styling25"></style>
+    <style id="styling26"></style>
+    <style id="styling27"></style>
+    <style id="styling28"></style>
+    <style id="styling29"></style>
+    <style id="styling30"></style>
+    <style id="styling31"></style>
+    <style id="styling32"></style>
+    <style id="styling33"></style>
+    <style id="styling34"></style>
+    <style id="styling35"></style>
+    <style id="styling36"></style>
+    <style id="styling37"></style>
+    <style id="styling38"></style>
+    <style id="styling39"></style>
+    <style id="styling40"></style>
+    <style id="styling41"></style>
+    <style id="styling42"></style>
+    <style id="styling43"></style>
+    <style id="styling44"></style>
+    <style id="styling45"></style>
+    <style id="styling46"></style>
+    <style id="styling47"></style>
+    <style id="styling48"></style>
+    <style id="styling49"></style>
+    <style id="styling50"></style>
+    <h1 class="Main-Body-h1">Wave Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-3">
+        <textarea id="textareaHTML3" placeholder=" HTML goes here..." onkeyup="compileHTML3(this)"
+            style="width: 50vw; height: 200px;">
+            <section class="wave-section">
+                <div class="wave wave1"></div>
+                <div class="wave wave2"></div>
+            </section>    
+                </textarea>
+        <textarea id="textareaCSS3" placeholder="CSS goes here..." onkeyup="compileCSS3(this)"
+            style="width: 50vw; height: 200px;">
+                .wave-section
+                {
+                    position: relative;
+                    width: 100%;
+                    height: 200px;
+                    background: #3586ff;
+                    overflow: hidden;
+                }
+                .wave-section .wave
+                {
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100px;
+                    background-image: url(public/images/wave.png);
+                    background-size: 1000px 100px;
+                }
+                .wave-section .wave.wave1
+                {
+                    animation: animate_wave 30s linear infinite;
+                    z-index: 1000;
+                    opacity: 1;
+                    animation-delay: 0s;
+                    bottom: 0;
+                }
+                .wave-section .wave.wave2
+                {
+                    animation: animate_wave2 15s linear infinite;
+                    animation-direction: reverse;
+                    z-index: 999;
+                    opacity: 0.5;
+                    animation-delay: -5s;
+                    bottom: 10px;
+                }
+                @keyframes animate_wave
+                {
+                    0%
+                    {
+                        background-position-x: 0;
+                    }
+                    100%
+                    {
+                        background-position-x: 1000px;
+                    }
+                }
+                @keyframes animate_wave2
+                {
+                    0%
+                    {
+                        background-position-x: 0;
+                    }
+                    100%
+                    {
+                        background-position-x: 1000px;
+                    }
+                }
+                </textarea>
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output3"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Neon Bubble Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-18">
+        <textarea id="textareaHTML18" placeholder="HTML goes here..." onkeyup="compileHTML18(this)" style="width: 50vw; height: 200px;">
+            <div class="Glowing-Upward-Light">
+      <div class="containerBubbles">
+        <div class="bubbles"> 
+         <span style= "--i:11;"> </span>
+         <span style= "--i:12;"> </span>
+         <span style= "--i:24;"> </span>
+         <span style= "--i:10;"> </span>
+         <span style= "--i:14;"> </span>
+         <span style= "--i:23;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:16;"> </span>
+         <span style= "--i:19;"> </span>
+         <span style= "--i:20;"> </span>
+         <span style= "--i:22;"> </span>
+         <span style= "--i:25;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:21;"> </span>
+         <span style= "--i:15;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:26;"> </span>
+         <span style= "--i:17;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:28;"> </span> 
+         <span style= "--i:11;"> </span>
+         <span style= "--i:12;"> </span>
+         <span style= "--i:24;"> </span>
+         <span style= "--i:10;"> </span>
+         <span style= "--i:14;"> </span>
+         <span style= "--i:23;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:16;"> </span>
+         <span style= "--i:19;"> </span>
+         <span style= "--i:20;"> </span>
+         <span style= "--i:22;"> </span>
+         <span style= "--i:25;"> </span>
+         <span style= "--i:18;"> </span>
+         <span style= "--i:21;"> </span>
+         <span style= "--i:15;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:26;"> </span>
+         <span style= "--i:17;"> </span>
+         <span style= "--i:13;"> </span>
+         <span style= "--i:28;"> </span> 
+        </div>
+ 
+     </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS18" placeholder="CSS goes here..." onkeyup="compileCSS18(this)" style="width: 50vw; height: 200px;">
+.Glowing-Upward-Light .containerBubbles
+{
+    background: #0c192c;
+    position: relative;
+    width:100%;
+    height:50vh;
+    overflow: hidden;
+}
+.Glowing-Upward-Light .bubbles
+{
+    position: relative;
+    display: flex;
+}
+.Glowing-Upward-Light .bubbles span
+{
+    position:relative;
+    width: 30px;
+    height: 30px;
+    background: #4fc3dc;
+    margin: 0 4px;
+    border-radius: 50%;
+   box-shadow: 0 0 0  10px #4fc3dc44,
+   0 0 50px #4fc3dc,
+   0 0 100px #4fc3dc;
+   animation : animate-Glowing-Upward-Light  15s linear infinite;
+   animation-duration: calc(125s / var(--i));
+}
+.Glowing-Upward-Light .bubbles span:nth-child(even)
+{
+    background: #ff2d75;
+    box-shadow: 0 0 0  10px #ff2d7544,
+   0 0 50px #ff2d75,
+   0 0 100px #ff2d75;
+}
+
+@keyframes animate-Glowing-Upward-Light
+{
+    0%
+    {
+        transform: translateY(100vh) scale(0);
+    }
+    100%
+    {
+        transform: translateY(-10vh) scale(1);
+    }
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output18" style="padding: 0; margin:0"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Rotating Cube</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-20">
+        <textarea id="textareaHTML20" placeholder="HTML goes here..." onkeyup="compileHTML20(this)" style="width: 50vw; height: 200px;">
+          <div class="RotatingCubeBody">
+          <div class="slider">
+            <div class="container">
+              <div class="slide x"></div>
+              <div class="slide y"></div>
+              <div class="slide z"></div>
+            </div>
+            <div class="shadow"></div>
+          </div>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS20" placeholder="CSS goes here..." onkeyup="compileCSS20(this)" style="width: 50vw; height: 200px;">
+            .RotatingCubeBody{
+	min-width: 100%;
+	height: 50vh;
+	background: #FF0074;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+	}
+
+
+.RotatingCubeBody .slider {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+ 	margin: auto;
+	-webkit-perspective: 600px;
+	        perspective: 600px;
+}
+
+.RotatingCubeBody .slider * {
+		-webkit-transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
+		        transition: all 1s cubic-bezier(0.5, -0.75, 0.2, 1.5);
+	}
+
+.RotatingCubeBody .container {
+		width: inherit;
+		height: inherit;
+		-webkit-transform-style: preserve-3d;
+		        transform-style: preserve-3d;
+		-webkit-transform: rotateY(0deg) rotateX(0deg);
+		        transform: rotateY(0deg) rotateX(0deg);
+	}
+.RotatingCubeBody .slide, .slide:after, .slide:before {
+			display: block;
+			width: inherit;
+			height: inherit;
+			background: url('https://cdn.dribbble.com/users/5031/screenshots/7008431/dribbble.png');
+			position: absolute;
+			-webkit-transform-style: preserve-3d;
+			        transform-style: preserve-3d;
+			background-size: cover;
+			background-position: center;
+		}
+
+.RotatingCubeBody .slide.x {
+		  -webkit-transform: rotateY(90deg);
+		          transform: rotateY(90deg);
+		} 
+
+.RotatingCubeBody .slide.x:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/730703/screenshots/6988911/elenidebo-thisiscolossal-theroad-forchicagodesignmuseum.jpg');
+				-webkit-transform: translateZ(100px) rotateZ(-90deg);
+				        transform: translateZ(100px) rotateZ(-90deg);
+			}
+
+.RotatingCubeBody .slide.x:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/329207/screenshots/6220354/bemocs_geneseo_sailing.jpg');
+				-webkit-transform: translateZ(-100px) rotateZ(-90deg);
+				        transform: translateZ(-100px) rotateZ(-90deg);
+			}
+
+.RotatingCubeBody .slide.y {
+		  -webkit-transform: rotateX(90deg);
+		          transform: rotateX(90deg);
+		} 
+
+.RotatingCubeBody .slide.y:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/63407/screenshots/5705689/dribbble_moonlight_2x.png');
+				-webkit-transform: translateZ(100px) scale(-1);
+				        transform: translateZ(100px) scale(-1);
+			}
+
+.RotatingCubeBody .slide.y:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/1355613/screenshots/6441984/landscape_2x.jpg');
+				-webkit-transform: translateZ(-100px);
+				        transform: translateZ(-100px);
+			}
+
+.RotatingCubeBody .slide.z {
+		  -webkit-transform: rotateX(0);
+		          transform: rotateX(0);
+		} 
+
+.RotatingCubeBody .slide.z:after {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/3178178/screenshots/7013817/the_caravan_by_patryk_wojciechowicz_2x.png');
+				-webkit-transform: translateZ(100px);
+				        transform: translateZ(100px);
+			}
+
+.RotatingCubeBody .slide.z:before {
+				content: '';
+				background-image: url('https://cdn.dribbble.com/users/1361661/screenshots/6673317/music_girl.png');
+				-webkit-transform: translateZ(-100px);
+				        transform: translateZ(-100px);
+			}
+
+
+.RotatingCubeBody .container {
+			-webkit-animation: rotate123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+			animation: rotate123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+		}
+
+		@-webkit-keyframes rotate123 {
+			0%, 10% {-webkit-transform: rotateY(0deg) rotateX(0deg);transform: rotateY(0deg) rotateX(0deg);}
+			15%, 20% {-webkit-transform: rotateY(180deg) rotateX(0deg);transform: rotateY(180deg) rotateX(0deg);}
+			25%, 35% {-webkit-transform: rotateY(180deg) rotateX(270deg);transform: rotateY(180deg) rotateX(270deg);}
+			40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);transform: rotateY(180deg) rotateX(90deg);}
+			55%, 65% {-webkit-transform: rotateY(-90deg) rotateX(90deg);transform: rotateY(-90deg) rotateX(90deg);}
+			70%, 80% {-webkit-transform: rotateY(90deg) rotateX(90deg);transform: rotateY(90deg) rotateX(90deg);}
+			90%, 95% {-webkit-transform: rotateY(0deg) rotateX(90deg);transform: rotateY(0deg) rotateX(90deg);}
+		}
+
+		@keyframes rotate123 {
+			0%, 10% {-webkit-transform: rotateY(0deg) rotateX(0deg);transform: rotateY(0deg) rotateX(0deg);}
+			15%, 20% {-webkit-transform: rotateY(180deg) rotateX(0deg);transform: rotateY(180deg) rotateX(0deg);}
+			25%, 35% {-webkit-transform: rotateY(180deg) rotateX(270deg);transform: rotateY(180deg) rotateX(270deg);}
+			40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);transform: rotateY(180deg) rotateX(90deg);}
+			55%, 65% {-webkit-transform: rotateY(-90deg) rotateX(90deg);transform: rotateY(-90deg) rotateX(90deg);}
+			70%, 80% {-webkit-transform: rotateY(90deg) rotateX(90deg);transform: rotateY(90deg) rotateX(90deg);}
+			90%, 95% {-webkit-transform: rotateY(0deg) rotateX(90deg);transform: rotateY(0deg) rotateX(90deg);}
+		}
+
+
+.RotatingCubeBody .shadow {
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: rgba(0,0,0,0.75);
+	position: absolute;
+	top: 60%;
+	-webkit-transform: rotateX(90deg);
+	        transform: rotateX(90deg);
+	z-index: -1;
+	-webkit-filter: blur(20px);
+	filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feGaussianBlur stdDeviation="20" /></filter></svg>#filter');
+	-webkit-filter: blur(20px);
+	        filter: blur(20px);
+	left: 0;
+	right: 0;
+	margin: auto;
+	animation: rotateShadow123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+	animation: rotateShadow123 15s infinite cubic-bezier(1, -0.75, 0.5, 1.2);
+}
+
+	@keyframes rotateShadow123 {
+		0%, 10% {-webkit-transform: rotateY(0deg) rotateX(90deg);}	
+		15%, 20% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		20.1%, 20.9% {-webkit-transform: rotateY(180deg) rotateX(90deg) translatez(5px);}
+		25%, 35% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		35.1%, 35.9% {-webkit-transform: rotateY(180deg) rotateX(90deg) translatez(-5px);}
+		40%, 50% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		55%, 65% {-webkit-transform: rotateY(0deg) rotateX(90deg);}
+		70%, 80% {-webkit-transform: rotateY(180deg) rotateX(90deg);}
+		90%, 99% {-webkit-transform: rotateY(90deg) rotateX(90deg);}
+		99.1%, 99.9% {-webkit-transform: rotateY(90deg) rotateX(90deg) translatez(-5px);}
+	}
+
+    
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output20"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Floating Cube Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-22">
+        <textarea id="textareaHTML22" placeholder="HTML goes here..." onkeyup="compileHTML22(this)" style="width: 50vw; height: 200px;">
+           <div class="FloatingCubeBG">
+<div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+</div>
+        </textarea>
+        <textarea id="textareaCSS22" placeholder="CSS goes here..." onkeyup="compileCSS22(this)" style="width: 50vw; height: 200px;">
+        @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.FloatingCubeBG{
+    font-family: 'Exo', sans-serif;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+.FloatingCubeBG .area{
+    background: #4e54c8;  
+    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
+    width: 100%;
+    height:50vh;
+}
+
+.FloatingCubeBG .circles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.FloatingCubeBG .circles li{
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animateFloatingCubeBG 25s linear infinite;
+    bottom: -150px;
+}
+
+.FloatingCubeBG .circles li:nth-child(1){
+    left: 25%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 0s;
+}
+
+.FloatingCubeBG .circles li:nth-child(2){
+    left: 10%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+    animation-duration: 12s;
+}
+
+.FloatingCubeBG .circles li:nth-child(3){
+    left: 70%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 4s;
+}
+
+.FloatingCubeBG .circles li:nth-child(4){
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    animation-delay: 0s;
+    animation-duration: 18s;
+}
+
+.FloatingCubeBG .circles li:nth-child(5){
+    left: 65%;
+    width: 20px;
+    height: 20px;
+    animation-delay: 0s;
+}
+
+.FloatingCubeBG .circles li:nth-child(6){
+    left: 75%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 3s;
+}
+
+.FloatingCubeBG .circles li:nth-child(7){
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 7s;
+}
+
+.FloatingCubeBG .circles li:nth-child(8){
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    animation-delay: 15s;
+    animation-duration: 45s;
+}
+
+.FloatingCubeBG .circles li:nth-child(9){
+    left: 20%;
+    width: 15px;
+    height: 15px;
+    animation-delay: 2s;
+    animation-duration: 35s;
+}
+
+.FloatingCubeBG .circles li:nth-child(10){
+    left: 85%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+    animation-duration: 7s;
+}
+@keyframes animateFloatingCubeBG {
+
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 0;
+    }
+
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output22"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Disco Hover Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-23">
+        <textarea id="textareaHTML23" placeholder="HTML goes here..." onkeyup="compileHTML23(this)" style="width: 50vw; height: 200px;">
+          <div class="discoHoverDiv">
+        <section>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </section>
+    </div>
+        </textarea>
+        <textarea id="textareaCSS23" placeholder="CSS goes here..." onkeyup="compileCSS23(this)" style="width: 50vw; height: 200px;">
+        
+.discoHoverDiv section
+{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: #001300;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    animation: changeColor123 5s linear infinite;
+
+}
+@keyframes changeColor123
+{
+    0%
+    {
+        filter: hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+.discoHoverDiv span
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: block;
+
+}
+.discoHoverDiv span::before
+{
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    transform: scale(0.1);
+    box-shadow: 0 0 10px #00ff0a,
+    0 0 20px #00ff0a,
+    0 0 40px #00ff0a,
+    0 0 60px #00ff0a,
+    0 0 80px #00ff0a,
+    0 0 100px #00ff0a;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: 2s;
+}
+.discoHoverDiv span:hover::before
+{
+    transform: scale(1);
+    transition: 0s;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output23"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Disco Cube Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-24">
+        <textarea id="textareaHTML24" placeholder="HTML goes here..." onkeyup="compileHTML24(this)" style="width: 50vw; height: 200px;">
+          <div class="DiscoBG">
+    <section>
+        <i style="--i:1";></i><i style="--i:12";></i>
+ <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i> <i style="--i:27";></i> <i style="--i:21";></i> <i style="--i:15";></i> <i style="--i:16";></i> <i style="--i:2";></i> <i style="--i:22";></i> <i style="--i:7";></i> <i style="--i:21";></i> <i style="--i:10";></i> <i style="--i:20";></i> <i style="--i:1";></i> <i style="--i:12";></i> <i style="--i:8";></i> <i style="--i:6";></i> <i style="--i:4";></i> <i style="--i:18";></i> <i style="--i:5";></i> <i style="--i:23";></i> <i style="--i:11";></i> <i style="--i:14";></i> <i style="--i:22";></i> <i style="--i:3";></i><i style="--i:27";></i>
+ 
+    </section>
+</div>
+        </textarea>
+        <textarea id="textareaCSS24" placeholder="CSS goes here..." onkeyup="compileCSS24(this)" style="width: 50vw; height: 200px;">     
+.DiscoBG section
+{
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    background: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    flex-wrap:wrap;
+}
+.DiscoBG section i
+{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background: #222;
+    animation: animateDiscoLight 6s linear infinite, animateDiscoBg 5s linear infinite ;
+}
+.DiscoBG section i:nth-child(5n+1)
+{
+    animation: animateDiscoLight 2s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-1s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+2)
+{
+    animation: animateDiscoLight 3s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-1.5s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+3)
+{
+    animation: animateDiscoLight 4s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-2s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+4)
+{
+    animation: animateDiscoLight 5s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-2.5s* var(--i));
+}
+.DiscoBG section i:nth-child(5n+5)
+{
+    animation: animateDiscoLight 6s linear infinite, animateDiscoBg 5s linear infinite ;
+    animation-delay: calc(-3s* var(--i));
+}
+@keyframes animateDiscoLight {
+    0%,20%
+    {
+        background: #222;
+    }
+    60%
+    {
+        background: #0f0;
+    }
+    80% , 100%
+    {
+        background: #222;
+    }
+}
+@keyframes animateDiscoBg {
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output24"></div>
+    <br/>
+    <h1 class="Main-Body-h1">Static Background</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-29">
+        <textarea id="textareaHTML29" placeholder="HTML goes here..." onkeyup="compileHTML29(this)" style="width: 50vw; height: 200px;">
+<div class="ribbon_design">
+    <section>
+        <div class="layer layer1"></div>
+        <div class="layer layer2"></div>
+        <div class="layer layer3"></div>
+        <div class="layer layer4"></div>
+        <div class="layer layer5"></div>
+        <div class="layer layer6"></div>
+        <div class="layer layer7"></div>
+        <div class="layer layer8"></div>
+        <div class="layer layer9"></div>
+    </section>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS29" placeholder="CSS goes here..." onkeyup="compileCSS29(this)" style="width: 50vw; height: 200px;">     
+
+.ribbon_design section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    overflow: hidden;
+}
+
+.ribbon_design .layer{
+    position: absolute;
+    top: 0;
+    left: -50%;
+    width: 100%;
+    height: 100vh;
+    box-shadow: 10px 0 10px rgba(0, 0, 0, 0.25);
+}
+
+.ribbon_design .layer1{
+    background: #03a9f4;
+    transform: skewX(-45deg) translate(0);
+    z-index: 1;
+}
+
+.ribbon_design .layer2{
+    background: #fff;
+    transform: skewX(-45deg) translate(-100px);
+    z-index: 3;
+}
+
+.ribbon_design .layer.layer3{
+    background: #ff3161;
+    transform: skewX(-45deg) translate(-200px);
+    z-index: 5;
+} 
+
+.ribbon_design .layer.layer4{
+    background: #222;
+    transform: skewX(-45deg) translate(-300px);
+    z-index: 10;
+}
+
+.ribbon_design .layer.layer5{
+    background: #ff3161;
+    transform: skewX(45deg) translate(0px);
+    z-index: 2;
+}
+
+.ribbon_design .layer.layer6{
+    background: #03a9f4;
+    transform: skewX(45deg) translate(-100px);
+    z-index: 4;
+}
+
+.ribbon_design .layer.layer7{
+    background: #fff;
+    transform: skewX(45deg) translate(-200px);
+    z-index: 6;
+}
+
+.ribbon_design .layer.layer8{
+    background: #222;
+    transform: skewX(45deg) translate(-300px);
+    z-index: 8;
+}
+
+.ribbon_design .layer.layer9{
+    background: transparent;
+    transform: skewX(45deg) translate(-300px);
+    z-index: 10;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output29"></div>
+    <br/>
+     <h1 class="Main-Body-h1">Cloud Effect</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-30">
+        <textarea id="textareaHTML30" placeholder="HTML goes here..." onkeyup="compileHTML30(this)" style="width: 50vw; height: 200px;">
+<div class="movingCloud">
+    <div class="banner">
+        <div class="clouds">
+            <img src="public\images\hmcloud1.png" style="--i:1" alt="clouds">
+            <img src="public\images\hmcloud2.png" style="--i:2" alt="clouds">
+            <img src="public\images\hmcloud3.png" style="--i:3" alt="clouds">
+            <img src="public\images\hmcloud4.png" style="--i:4" alt="clouds">
+            <img src="public\images\hmcloud5.png" style="--i:5" alt="clouds">
+        </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS30" placeholder="CSS goes here..." onkeyup="compileCSS30(this)" style="width: 50vw; height: 200px;">     
+.movingCloud .banner{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: url(public/images/hmcloud.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: bottom;
+}
+
+.movingCloud .banner .clouds{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    overflow: hidden;
+}
+
+.movingCloud .banner .clouds img{
+    position: absolute;
+    bottom: 0;
+    max-width: 100%;
+    animation: animatemovingCloud  calc(8s * var(--i)) linear infinite;
+}
+
+@keyframes animatemovingCloud {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+} 
+
+.movingCloud section{
+    position: relative;
+    /* padding: 75% 100px; */
+}
+
+.movingCloud section h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output30"></div>
+    <br/>
+    <h1 class="Main-Body-h1"> Climbing Text</h1>
+    <div class="html-css-wrap">
+<h2 class="Main-Body-h2" style="padding-left:4px;"> HTML</h2>
+<h2 class="Main-Body-h2">CSS</h2>
+</div>
+    <div class="element-44">
+        <textarea id="textareaHTML44" placeholder="HTML goes here..." onkeyup="compileHTML44(this)" style="width: 50vw; height: 200px;">
+<div class="ClimbingCube">
+    <div class="container">
+        <div class="box">
+            <div class="cube"></div>
+        </div>
+    </div>
+</div>
+    </textarea> 
+        <textarea id="textareaCSS44" placeholder="CSS goes here..." onkeyup="compileCSS44(this)" style="width: 50vw; height: 200px;">
+.ClimbingCube
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background: #000;
+  overflow: hidden;
+}
+.ClimbingCube .container{
+    position: relative; 
+    width: 100%;
+    transform: rotate(-35deg);
+}
+.ClimbingCube .container .box{
+    position: relative;
+    left: -200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc( 100% + 400px);
+    -webkit-box-reflect:below 1px linear-gradient(transparent , #0004);
+    animation: ClimbingCubeanimates 1.5s ease-in-out infinite;
+}
+@keyframes ClimbingCubeanimates {
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translateX(-200px);
+    }
+}
+.ClimbingCube .container .box .cube{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: #03e9f4;
+    box-shadow: 0 0 5px rgb(3,233,244,1),
+    0 0 25px rgb(3,233,244,1),
+    0 0 50px rgb(3,233,244,1),
+    0 0 100px rgb(3,233,244,0.5),
+    0 0 200px rgb(3,233,244,0.5);
+    transform-origin: bottom right;
+    animation: ClimbingCubeanimate 1.5s ease-in-out infinite;
+}
+@keyframes ClimbingCubeanimate {
+    0%{
+        transform: rotate(0deg);
+    }
+    60%{
+        transform: rotate(90deg);
+    }
+    65%{
+        transform: rotate(85deg);
+    }
+    70%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(87.5deg);
+    }
+    80% , 100%{
+        transform: rotate(90deg);
+    }
+}
+        </textarea>
+        
+    </div>
+    <h1 class="Main-Body-h1 middle-output"> OUTPUT</h1>
+    <div id="output44"></div>
+    <br/>
